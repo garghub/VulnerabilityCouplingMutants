@@ -1,0 +1,17 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""src/main/java/org/owasp/validator/html/scan/MagicSAXFilter.java""","""MagicSAXFilter::MagicSAXFilter( ResourceBundle messages)""",77,79,77,79
+"""src/main/java/org/owasp/validator/html/scan/MagicSAXFilter.java""","""MagicSAXFilter::reset( InternalPolicy instance)""",81,95,81,95
+"""src/main/java/org/owasp/validator/html/scan/MagicSAXFilter.java""","""MagicSAXFilter::characters( XMLString text , Augmentations augs)""",97,115,97,115
+"""src/main/java/org/owasp/validator/html/scan/MagicSAXFilter.java""","""MagicSAXFilter::comment( XMLString text , Augmentations augs)""",120,131,120,131
+"""src/main/java/org/owasp/validator/html/scan/MagicSAXFilter.java""","""MagicSAXFilter::doctypeDecl( String root , String publicId , String systemId , Augmentations augs)""",133,135,133,135
+"""src/main/java/org/owasp/validator/html/scan/MagicSAXFilter.java""","""MagicSAXFilter::emptyElement( QName element , XMLAttributes attributes , Augmentations augs)""",137,140,137,140
+"""src/main/java/org/owasp/validator/html/scan/MagicSAXFilter.java""","""MagicSAXFilter::peekTop()""",142,144,142,144
+"""src/main/java/org/owasp/validator/html/scan/MagicSAXFilter.java""","""MagicSAXFilter::endElement( QName element , Augmentations augs)""",146,201,146,201
+"""src/main/java/org/owasp/validator/html/scan/MagicSAXFilter.java""","""MagicSAXFilter::makeCssScanner()""",203,208,203,208
+"""src/main/java/org/owasp/validator/html/scan/MagicSAXFilter.java""","""MagicSAXFilter::processingInstruction( String target , XMLString data , Augmentations augs)""",210,212,210,212
+"""src/main/java/org/owasp/validator/html/scan/MagicSAXFilter.java""","""MagicSAXFilter::startCDATA( Augmentations augs)""",214,217,214,217
+"""src/main/java/org/owasp/validator/html/scan/MagicSAXFilter.java""","""MagicSAXFilter::endCDATA( Augmentations augs)""",219,222,219,222
+"""src/main/java/org/owasp/validator/html/scan/MagicSAXFilter.java""","""MagicSAXFilter::startElement( QName element , XMLAttributes attributes , Augmentations augs)""",224,388,224,389
+"""src/main/java/org/owasp/validator/html/scan/MagicSAXFilter.java""","""MagicSAXFilter::makeSimpleQname( String name)""",390,392,391,393
+"""src/main/java/org/owasp/validator/html/scan/MagicSAXFilter.java""","""MagicSAXFilter::addError( String errorKey , Object [ ] objs)""",394,396,395,397
+"""src/main/java/org/owasp/validator/html/scan/MagicSAXFilter.java""","""MagicSAXFilter::getErrorMessages()""",398,400,399,401

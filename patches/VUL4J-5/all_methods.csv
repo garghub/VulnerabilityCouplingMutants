@@ -1,0 +1,26 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""src/main/java/org/apache/commons/compress/archivers/examples/Expander.java""","""Expander::expand( File archive , File targetDirectory)""",66,72,66,72
+"""src/main/java/org/apache/commons/compress/archivers/examples/Expander.java""","""Expander::expand( String format , File archive , File targetDirectory)""",84,94,84,94
+"""src/main/java/org/apache/commons/compress/archivers/examples/Expander.java""","""Expander::expand( InputStream archive , File targetDirectory)""",106,108,106,108
+"""src/main/java/org/apache/commons/compress/archivers/examples/Expander.java""","""Expander::expand( String format , InputStream archive , File targetDirectory)""",120,123,120,123
+"""src/main/java/org/apache/commons/compress/archivers/examples/Expander.java""","""Expander::expand( String format , SeekableByteChannel archive , File targetDirectory)""",135,147,135,147
+"""src/main/java/org/apache/commons/compress/archivers/examples/Expander.java""","""Expander::expand( final ArchiveInputStream archive , File targetDirectory)""",157,174,157,174
+"""src/main/java/org/apache/commons/compress/archivers/examples/Expander.java""","""Expander::expand( final ZipFile archive , File targetDirectory)""",184,204,184,204
+"""src/main/java/org/apache/commons/compress/archivers/examples/Expander.java""","""Expander::expand( final SevenZFile archive , File targetDirectory)""",214,233,214,233
+"""src/main/java/org/apache/commons/compress/archivers/examples/Expander.java""","""Expander::prefersSeekableByteChannel( String format)""",235,237,235,237
+"""src/main/java/org/apache/commons/compress/archivers/examples/Expander.java""","""Expander::expand( ArchiveEntrySupplier supplier , EntryWriter writer , File targetDirectory)""",239,264,239,264
+"""src/test/java/org/apache/commons/compress/archivers/examples/ExpanderTest.java""","""ExpanderTest::sevenZTwoFileVersion()""",59,63,58,62
+"""src/test/java/org/apache/commons/compress/archivers/examples/ExpanderTest.java""","""ExpanderTest::sevenZTwoFileVersionWithAutoDetection()""",66,70,65,69
+"""src/test/java/org/apache/commons/compress/archivers/examples/ExpanderTest.java""","""ExpanderTest::sevenZInputStreamVersion()""",73,78,72,77
+"""src/test/java/org/apache/commons/compress/archivers/examples/ExpanderTest.java""","""ExpanderTest::sevenZInputStreamVersionWithAutoDetection()""",81,86,80,85
+"""src/test/java/org/apache/commons/compress/archivers/examples/ExpanderTest.java""","""ExpanderTest::sevenZChannelVersion()""",89,95,88,94
+"""src/test/java/org/apache/commons/compress/archivers/examples/ExpanderTest.java""","""ExpanderTest::sevenZFileVersion()""",98,104,97,103
+"""src/test/java/org/apache/commons/compress/archivers/examples/ExpanderTest.java""","""ExpanderTest::zipFileVersion()""",107,113,106,112
+"""src/test/java/org/apache/commons/compress/archivers/examples/ExpanderTest.java""","""ExpanderTest::fileCantEscapeViaAbsolutePath()""",116,122,115,121
+"""src/test/java/org/apache/commons/compress/archivers/examples/ExpanderTest.java""","""ExpanderTest::fileCantEscapeDoubleDotPath()""",125,132,124,131
+"""src/test/java/org/apache/commons/compress/archivers/examples/ExpanderTest.java""","""ExpanderTest::fileCantEscapeDoubleDotPathWithSimilarSibling()""",135,152,-1,-1
+"""src/test/java/org/apache/commons/compress/archivers/examples/ExpanderTest.java""","""ExpanderTest::setup7z()""",154,175,133,154
+"""src/test/java/org/apache/commons/compress/archivers/examples/ExpanderTest.java""","""ExpanderTest::setupZip()""",177,199,156,178
+"""src/test/java/org/apache/commons/compress/archivers/examples/ExpanderTest.java""","""ExpanderTest::setupZip( String entry)""",201,214,180,193
+"""src/test/java/org/apache/commons/compress/archivers/examples/ExpanderTest.java""","""ExpanderTest::verifyTargetDir()""",216,222,195,201
+"""src/test/java/org/apache/commons/compress/archivers/examples/ExpanderTest.java""","""ExpanderTest::assertHelloWorld( String fileName , String suffix)""",224,231,203,210

@@ -1,0 +1,3 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old,line_num,mod_type,mod
+"""core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.java""","""URLValidator::validate( Object object)""",48,61,48,61,58,"""deleted""","""        if (!(value.getClass().equals(String.class)) || !Pattern.compile(getUrlRegex(), Pattern.CASE_INSENSITIVE).matcher(String.valueOf(value)).matches()) {"""
+"""core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.java""","""URLValidator::validate( Object object)""",48,61,48,61,58,"""added""","""        if (!(value.getClass().equals(String.class)) || !Pattern.compile(getUrlRegex(), Pattern.CASE_INSENSITIVE).matcher(String.valueOf(value).trim()).matches()) {"""

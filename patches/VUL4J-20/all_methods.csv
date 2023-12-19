@@ -1,0 +1,41 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::COSArray()""",40,43,40,43
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::add( COSBase object)""",50,53,50,53
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::add( COSObjectable object)""",60,63,60,63
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::add( int i , COSBase object)""",72,75,72,75
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::clear()""",80,83,80,83
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::removeAll( Collection<COSBase> objectsList)""",90,93,90,93
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::retainAll( Collection<COSBase> objectsList)""",100,103,100,103
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::addAll( Collection<COSBase> objectsList)""",110,113,110,113
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::addAll( COSArray objectList)""",120,126,120,126
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::addAll( int i , Collection<COSBase> objectList)""",135,138,135,138
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::set( int index , COSBase object)""",146,149,146,149
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::set( int index , int intVal)""",157,160,157,160
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::set( int index , COSObjectable object)""",168,176,168,176
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::getObject( int index)""",186,198,186,198
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::get( int index)""",208,211,208,211
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::getInt( int index)""",220,223,220,223
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::getInt( int index , int defaultValue)""",232,244,232,244
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::setInt( int index , int value)""",252,255,252,255
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::setName( int index , String name)""",262,265,262,265
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::getName( int index)""",273,276,273,276
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::getName( int index , String defaultValue)""",284,296,284,296
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::setString( int index , String string)""",303,313,303,313
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::getString( int index)""",321,324,321,324
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::getString( int index , String defaultValue)""",332,344,332,344
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::size()""",351,354,351,354
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::remove( int i)""",363,366,363,366
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::remove( COSBase o)""",376,379,376,379
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::removeObject( COSBase o)""",389,408,389,408
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::toString()""",414,417,414,417
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::iterator()""",425,428,425,428
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::indexOf( COSBase object)""",436,447,436,447
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::indexOfObject( COSBase object)""",456,474,456,474
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::growToSize( int size)""",483,486,483,486
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::growToSize( int size , COSBase object)""",496,502,496,502
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::accept( ICOSVisitor visitor)""",512,515,512,515
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::isNeedToBeUpdated()""",518,521,518,521
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::setNeedToBeUpdated( boolean flag)""",524,527,524,527
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::toFloatArray()""",534,544,534,542
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::setFloatArray( float [ ] value)""",551,558,549,556
+"""pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java""","""COSArray::toList()""",565,573,563,571

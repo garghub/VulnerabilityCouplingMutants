@@ -1,0 +1,23 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java""","""YAMLConfiguration::YAMLConfiguration()""",50,53,47,50
+"""src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java""","""YAMLConfiguration::YAMLConfiguration( final HierarchicalConfiguration<ImmutableNode> c)""",61,64,58,61
+"""src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java""","""YAMLConfiguration::read( final Reader in)""",67,79,64,76
+"""src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java""","""YAMLConfiguration::read( final Reader in , final LoaderOptions options)""",81,94,78,91
+"""src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java""","""YAMLConfiguration::write( final Writer out)""",97,102,94,99
+"""src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java""","""YAMLConfiguration::dump( final Writer out , final DumperOptions options)""",104,110,101,107
+"""src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java""","""YAMLConfiguration::read( final InputStream in)""",119,131,116,128
+"""src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java""","""YAMLConfiguration::read( final InputStream in , final LoaderOptions options)""",133,146,130,143
+"""src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java""","""YAMLConfiguration::createYamlForReading( LoaderOptions options)""",155,158,-1,-1
+"""src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java""","""YAMLConfiguration::createClassLoadingDisablingConstructor()""",167,177,-1,-1
+"""src/test/java/org/apache/commons/configuration2/TestYAMLConfiguration.java""","""TestYAMLConfiguration::setUp()""",58,62,47,51
+"""src/test/java/org/apache/commons/configuration2/TestYAMLConfiguration.java""","""TestYAMLConfiguration::testGetProperty_simple()""",65,68,54,57
+"""src/test/java/org/apache/commons/configuration2/TestYAMLConfiguration.java""","""TestYAMLConfiguration::testGetProperty_nested()""",71,74,60,63
+"""src/test/java/org/apache/commons/configuration2/TestYAMLConfiguration.java""","""TestYAMLConfiguration::testGetProperty_nested_with_list()""",77,81,66,70
+"""src/test/java/org/apache/commons/configuration2/TestYAMLConfiguration.java""","""TestYAMLConfiguration::testGetProperty_subset()""",84,88,73,77
+"""src/test/java/org/apache/commons/configuration2/TestYAMLConfiguration.java""","""TestYAMLConfiguration::testGetProperty_very_nested_properties()""",91,96,80,85
+"""src/test/java/org/apache/commons/configuration2/TestYAMLConfiguration.java""","""TestYAMLConfiguration::testGetProperty_integer()""",99,105,88,94
+"""src/test/java/org/apache/commons/configuration2/TestYAMLConfiguration.java""","""TestYAMLConfiguration::testSave()""",108,128,97,117
+"""src/test/java/org/apache/commons/configuration2/TestYAMLConfiguration.java""","""TestYAMLConfiguration::testGetProperty_dictionary()""",131,137,120,126
+"""src/test/java/org/apache/commons/configuration2/TestYAMLConfiguration.java""","""TestYAMLConfiguration::testCopyConstructor()""",140,147,129,136
+"""src/test/java/org/apache/commons/configuration2/TestYAMLConfiguration.java""","""TestYAMLConfiguration::testObjectCreationFromReader()""",150,165,-1,-1
+"""src/test/java/org/apache/commons/configuration2/TestYAMLConfiguration.java""","""TestYAMLConfiguration::testObjectCreationFromStream()""",168,183,-1,-1

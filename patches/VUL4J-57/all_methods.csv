@@ -1,0 +1,33 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""src/main/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepExecution.java""","""BuildTriggerStepExecution::start()""",57,146,60,148
+"""src/main/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepExecution.java""","""BuildTriggerStepExecution::completeDefaultParameters( List<ParameterValue> parameters , Job<?,?> project)""",148,169,150,171
+"""src/main/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepExecution.java""","""BuildTriggerStepExecution::stop( Throwable cause)""",173,213,175,215
+"""src/main/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepExecution.java""","""BuildTriggerStepExecution::maybeInterrupt( Executor e , Throwable cause , StepContext context)""",214,232,216,234
+"""src/main/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepExecution.java""","""BuildTriggerStepExecution::getStatus()""",234,258,236,260
+"""src/main/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepExecution.java""","""BuildTriggerStepExecution::running( @ Nonnull Executor e)""",259,270,261,272
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::runQuickly()""",70,72,61,63
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::buildTopLevelProject()""",75,85,66,76
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::failingBuild()""",88,95,79,86
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::buildFolderProject()""",99,110,90,101
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::buildParallelTests()""",113,128,104,119
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::abortBuild()""",132,154,123,145
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::cancelBuildQueue()""",157,177,148,168
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::interruptFlow()""",180,208,171,199
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::interruptFlowDownstreamFlow()""",211,224,202,215
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::interruptFlowNonPropagate()""",226,239,217,230
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::triggerWorkflow()""",242,249,233,240
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::parameters()""",252,276,243,267
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::noWait()""",279,284,270,275
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::rejectedStart()""",286,292,277,283
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::QDH::shouldSchedule( Queue . Task p , List<Action> actions)""",294,296,285,287
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::buildVariables()""",300,305,291,296
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::buildVariablesWorkflow()""",308,315,299,306
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::coalescedQueue()""",318,336,309,327
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::nonCoalescedQueueParallel()""",339,358,330,349
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::raceCondition()""",361,369,352,360
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::defaultParameters()""",372,381,363,372
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::storedForm()""",384,392,375,383
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::triggerOrgFolder()""",397,411,388,402
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::DummyMultiBranchProjectFactory::recognizes( @ NonNull ItemGroup <?> parent , @ NonNull String name , @ NonNull List <? extends SCMSource> scmSources , @ NonNull Map<String,Object> attributes , @ CheckForNull SCMHeadEvent <?> event , @ NonNull TaskListener listener)""",415,421,406,412
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::DummyMultiBranchProjectFactory::DescriptorImpl::newInstance()""",427,429,418,420
+"""src/test/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepTest.java""","""BuildTriggerStepTest::permissions()""",434,453,-1,-1

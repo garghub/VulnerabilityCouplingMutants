@@ -1,0 +1,29 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::testIntercepDefault()""",46,81,45,80
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::testInterceptAll1()""",83,122,82,121
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::testInterceptAll2()""",125,164,124,163
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::testInterceptSelectedCookiesNameOnly1()""",166,205,165,204
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::testInterceptSelectedCookiesNameOnly2()""",207,246,206,245
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::testInterceptSelectedCookiesNameOnly3()""",248,287,247,286
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::testInterceptSelectedCookiesNameAndValue()""",290,329,289,328
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::testCookiesWithClassPollution()""",331,397,330,394
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::testCookiesWithStrutsInternalsAccess()""",399,451,396,448
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::MockActionWithCookieAware::setCookiesMap( Map<String,String> cookies)""",462,464,459,461
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::MockActionWithCookieAware::getCookiesMap()""",466,468,463,465
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::MockActionWithCookieAware::getCookie1()""",470,470,467,467
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::MockActionWithCookieAware::setCookie1( String cookie1)""",471,471,468,468
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::MockActionWithCookieAware::getCookie2()""",473,473,470,470
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::MockActionWithCookieAware::setCookie2( String cookie2)""",474,474,471,471
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::MockActionWithCookieAware::getCookie3()""",476,476,473,473
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::MockActionWithCookieAware::setCookie3( String cookie3)""",477,477,474,474
+"""xwork-core/src/main/java/com/opensymphony/xwork2/security/DefaultExcludedPatternsChecker.java""","""DefaultExcludedPatternsChecker::DefaultExcludedPatternsChecker()""",25,27,33,35
+"""xwork-core/src/main/java/com/opensymphony/xwork2/security/DefaultExcludedPatternsChecker.java""","""DefaultExcludedPatternsChecker::setOverrideExcludePatterns( String excludePatterns)""",30,39,38,47
+"""xwork-core/src/main/java/com/opensymphony/xwork2/security/DefaultExcludedPatternsChecker.java""","""DefaultExcludedPatternsChecker::setAdditionalExcludePatterns( String excludePatterns)""",42,49,50,57
+"""xwork-core/src/main/java/com/opensymphony/xwork2/security/DefaultExcludedPatternsChecker.java""","""DefaultExcludedPatternsChecker::setExcludedPatterns( String commaDelimitedPatterns)""",51,53,59,61
+"""xwork-core/src/main/java/com/opensymphony/xwork2/security/DefaultExcludedPatternsChecker.java""","""DefaultExcludedPatternsChecker::setExcludedPatterns( String [ ] patterns)""",55,57,63,65
+"""xwork-core/src/main/java/com/opensymphony/xwork2/security/DefaultExcludedPatternsChecker.java""","""DefaultExcludedPatternsChecker::setExcludedPatterns( Set<String> patterns)""",59,67,67,75
+"""xwork-core/src/main/java/com/opensymphony/xwork2/security/DefaultExcludedPatternsChecker.java""","""DefaultExcludedPatternsChecker::isExcluded( String value)""",69,79,77,87
+"""xwork-core/src/main/java/com/opensymphony/xwork2/security/DefaultExcludedPatternsChecker.java""","""DefaultExcludedPatternsChecker::getExcludedPatterns()""",81,83,89,91
+"""xwork-core/src/test/java/com/opensymphony/xwork2/security/DefaultExcludedPatternsCheckerTest.java""","""DefaultExcludedPatternsCheckerTest::testHardcodedPatterns()""",10,66,10,65
+"""xwork-core/src/test/java/com/opensymphony/xwork2/security/DefaultExcludedPatternsCheckerTest.java""","""DefaultExcludedPatternsCheckerTest::testParamWithClassInName()""",68,87,67,84
+"""xwork-core/src/test/java/com/opensymphony/xwork2/security/DefaultExcludedPatternsCheckerTest.java""","""DefaultExcludedPatternsCheckerTest::testStrutsTokenIsExcluded()""",89,104,86,101

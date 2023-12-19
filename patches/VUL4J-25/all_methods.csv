@@ -1,0 +1,43 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java""","""XSSAPIImpl::activate()""",70,84,74,88
+"""src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java""","""XSSAPIImpl::deactivate()""",87,90,91,94
+"""src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java""","""XSSAPIImpl::getValidInteger( String integer , int defaultValue)""",100,111,104,115
+"""src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java""","""XSSAPIImpl::getValidLong( String source , long defaultValue)""",117,130,121,134
+"""src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java""","""XSSAPIImpl::getValidDouble( String source , double defaultValue)""",136,147,140,151
+"""src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java""","""XSSAPIImpl::getValidDimension( String dimension , String defaultValue)""",153,168,157,172
+"""src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java""","""XSSAPIImpl::mangleNamespaces( String absPath)""",182,218,186,222
+"""src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java""","""XSSAPIImpl::getValidHref( final String url)""",225,247,229,262
+"""src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java""","""XSSAPIImpl::getValidJSToken( String token , String defaultValue)""",253,267,268,282
+"""src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java""","""XSSAPIImpl::getValidStyleToken( String token , String defaultValue)""",303,309,318,324
+"""src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java""","""XSSAPIImpl::getValidCSSColor( String color , String defaultColor)""",315,333,330,348
+"""src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java""","""XSSAPIImpl::getValidMultiLineComment( String comment , String defaultComment)""",339,344,354,359
+"""src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java""","""XSSAPIImpl::getValidJSON( String json , String defaultJson)""",350,378,365,393
+"""src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java""","""XSSAPIImpl::getValidXML( String xml , String defaultXml)""",384,402,399,417
+"""src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java""","""XSSAPIImpl::encodeForHTML( String source)""",412,414,427,429
+"""src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java""","""XSSAPIImpl::encodeForHTMLAttr( String source)""",420,422,435,437
+"""src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java""","""XSSAPIImpl::encodeForXML( String source)""",428,430,443,445
+"""src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java""","""XSSAPIImpl::encodeForXMLAttr( String source)""",436,438,451,453
+"""src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java""","""XSSAPIImpl::encodeForJSString( String source)""",444,446,459,461
+"""src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java""","""XSSAPIImpl::encodeForCSSString( String source)""",452,454,467,469
+"""src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java""","""XSSAPIImpl::filterHTML( String source)""",465,467,480,482
+"""src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java""","""XSSAPIImplTest::setup()""",52,74,52,74
+"""src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java""","""XSSAPIImplTest::setDefaultHandler( XSSFilterImpl xssFilter , String filename)""",76,86,76,86
+"""src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java""","""XSSAPIImplTest::testEncodeForHTML()""",89,109,89,109
+"""src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java""","""XSSAPIImplTest::testEncodeForHTMLAttr()""",112,131,112,131
+"""src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java""","""XSSAPIImplTest::testEncodeForXML()""",134,153,134,153
+"""src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java""","""XSSAPIImplTest::testEncodeForXMLAttr()""",156,176,156,176
+"""src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java""","""XSSAPIImplTest::testFilterHTML()""",179,213,179,213
+"""src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java""","""XSSAPIImplTest::testGetValidHref()""",216,298,216,294
+"""src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java""","""XSSAPIImplTest::testGetValidHrefWithoutHrefConfig()""",301,311,297,307
+"""src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java""","""XSSAPIImplTest::testGetValidInteger()""",314,334,310,330
+"""src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java""","""XSSAPIImplTest::testGetValidLong()""",337,357,333,353
+"""src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java""","""XSSAPIImplTest::testGetValidDouble()""",360,379,356,375
+"""src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java""","""XSSAPIImplTest::testGetValidDimension()""",382,409,378,405
+"""src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java""","""XSSAPIImplTest::testEncodeForJSString()""",412,434,408,430
+"""src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java""","""XSSAPIImplTest::testGetValidJSToken()""",437,466,433,462
+"""src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java""","""XSSAPIImplTest::testEncodeForCSSString()""",469,486,465,482
+"""src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java""","""XSSAPIImplTest::testGetValidStyleToken()""",489,558,485,554
+"""src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java""","""XSSAPIImplTest::testGetValidCSSColor()""",561,594,557,590
+"""src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java""","""XSSAPIImplTest::testGetValidMultiLineComment()""",597,615,593,611
+"""src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java""","""XSSAPIImplTest::testGetValidJSON()""",618,654,614,650
+"""src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java""","""XSSAPIImplTest::testGetValidXML()""",657,707,653,703

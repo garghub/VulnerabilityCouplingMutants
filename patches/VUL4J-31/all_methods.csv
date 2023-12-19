@@ -1,0 +1,87 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::ArrayList<String>()""",127,130,126,129
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::DefaultActionMapper()""",134,175,133,174
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::addParameterAction( String prefix , ParameterAction parameterAction)""",184,186,183,185
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::setAllowDynamicMethodCalls( String allow)""",189,191,188,190
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::setSlashesInActionNames( String allow)""",194,196,193,195
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::setAlwaysSelectFullNamespace( String val)""",199,201,198,200
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::setAllowedActionNames( String allowedActionNames)""",204,206,203,205
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::setAllowActionPrefix( String allowActionPrefix)""",209,211,208,210
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::setAllowActionCrossNamespaceAccess( String allowActionCrossNamespaceAccess)""",214,216,213,215
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::setContainer( Container container)""",219,221,218,220
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::setExtensions( String extensions)""",224,236,223,235
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::getMappingFromActionName( String actionName)""",238,242,237,241
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::isSlashesInActionNames()""",244,246,243,245
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::getMapping( HttpServletRequest request , ConfigurationManager configManager)""",253,268,252,267
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::parseActionName( ActionMapping mapping)""",270,285,269,284
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::handleSpecialParameters( HttpServletRequest request , ActionMapping mapping)""",294,316,293,315
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::parseNameAndNamespace( String uri , ActionMapping mapping , ConfigurationManager configManager)""",324,376,323,375
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::cleanupActionName( final String rawActionName)""",384,390,383,400
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::dropExtension( String name)""",399,401,409,411
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::dropExtension( String name , ActionMapping mapping)""",410,433,420,443
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::getDefaultExtension()""",438,444,448,454
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::getUriFromActionMapping( ActionMapping mapping)""",451,461,461,471
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::handleNamespace( ActionMapping mapping , StringBuilder uri)""",463,470,473,480
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::handleName( ActionMapping mapping , StringBuilder uri)""",472,478,482,488
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::handleDynamicMethod( ActionMapping mapping , StringBuilder uri)""",480,494,490,504
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::handleExtension( ActionMapping mapping , StringBuilder uri)""",496,506,506,516
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::lookupExtension( String extension)""",508,523,518,533
+"""core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java""","""DefaultActionMapper::handleParams( ActionMapping mapping , StringBuilder uri)""",525,534,535,544
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::setUp()""",52,69,51,68
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetMapping()""",71,83,70,82
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetMappingWithMethod()""",85,99,84,98
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetMappingWithSlashedName()""",101,115,100,114
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetMappingWithSlashedNameAtRootButNoSlashPackage()""",117,131,116,130
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetMappingWithSlashedNameAtRoot()""",133,160,132,159
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetMappingWithNamespaceSlash()""",164,185,163,184
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetMappingWithUnknownNamespace()""",187,199,186,198
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetMappingWithUnknownNamespaceButFullNamespaceSelect()""",201,214,200,213
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetMappingWithActionName_methodAndName()""",216,222,215,221
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetMappingWithActionName_name()""",224,229,223,228
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetMappingWithActionName_noDynamicMethod()""",231,237,230,236
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetMappingWithActionName_noDynamicMethodColonPrefix()""",239,254,238,253
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetMappingWithActionName_null()""",256,260,255,259
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetUri()""",262,272,261,271
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetUriWithSemicolonPresent()""",274,284,273,283
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetUriWithMethod()""",286,297,285,296
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetUriWithOriginalExtension()""",299,308,298,307
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetMappingWithNoExtension()""",310,324,309,323
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetMappingWithNoExtensionButUriHasExtension()""",326,340,325,339
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testParseNameAndNamespace1()""",346,354,345,353
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testParseNameAndNamespace2()""",356,364,355,363
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testParseNameAndNamespace3()""",366,374,365,373
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testParseNameAndNamespace_NoSlashes()""",376,385,375,384
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testParseNameAndNamespace_AllowSlashes()""",387,396,386,395
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testActionPrefixWhenDisabled()""",403,415,402,414
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testActionPrefixWhenEnabled()""",417,430,416,429
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testActionPrefixWhenSlashesAndCrossNamespaceDisabled()""",432,446,431,445
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testActionPrefixWhenSlashesButSlashesDisabledAndCrossNamespaceDisabled()""",448,462,447,461
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testActionPrefixWhenSlashesButSlashesDisabledAndCrossNamespace()""",464,479,463,478
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testActionPrefixWhenCrossNamespace()""",481,495,480,494
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testActionPrefix_fromImageButton()""",497,512,496,511
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testActionPrefix_fromIEImageButton()""",514,528,513,527
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testRedirectPrefix()""",530,544,529,543
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testUnsafeRedirectPrefix()""",546,560,545,559
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testRedirectActionPrefix()""",562,577,561,576
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testUnsafeRedirectActionPrefix()""",579,594,578,593
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testRedirectActionPrefixWithEmptyExtension()""",596,612,595,611
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testCustomActionPrefix()""",614,631,613,630
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testDropExtension()""",633,641,632,640
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testDropExtensionWhenBlank()""",643,652,642,651
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testDropExtensionEmbeddedDot()""",654,663,653,662
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetUriFromActionMapper1()""",665,674,664,673
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetUriFromActionMapper2()""",676,685,675,684
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetUriFromActionMapper3()""",687,696,686,695
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetUriFromActionMapper4()""",699,707,698,706
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetUriFromActionMapper5()""",709,717,708,716
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetUriFromActionMapper6()""",720,729,719,728
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetUriFromActionMapper7()""",731,740,730,739
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetUriFromActionMapper8()""",742,751,741,750
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetUriFromActionMapper9()""",754,762,753,761
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetUriFromActionMapper10()""",764,772,763,771
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetUriFromActionMapper11()""",774,782,773,781
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetUriFromActionMapper12()""",784,792,783,791
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetUriFromActionMapper_justActionAndMethod()""",794,803,793,802
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testGetUriFromActionMapperWhenBlankExtension()""",805,815,804,814
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testSetExtension()""",817,840,816,839
+"""core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java""","""DefaultActionMapperTest::testAllowedActionNames()""",842,888,841,864

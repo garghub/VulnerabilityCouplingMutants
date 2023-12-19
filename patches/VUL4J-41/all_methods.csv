@@ -1,0 +1,36 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::AbstractUnArchiver()""",70,73,70,73
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::AbstractUnArchiver( final File sourceFile)""",75,78,75,78
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::getDestDirectory()""",81,84,81,84
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::setDestDirectory( final File destDirectory)""",87,90,87,90
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::getDestFile()""",93,96,93,96
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::setDestFile( final File destFile)""",99,102,99,102
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::getSourceFile()""",105,108,105,108
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::setSourceFile( final File sourceFile)""",111,114,111,114
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::isOverwrite()""",117,120,117,120
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::setOverwrite( final boolean b)""",123,126,123,126
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::extract()""",129,135,129,135
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::extract( final String path , final File outputDirectory)""",138,144,138,144
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::addArchiveFinalizer( final ArchiveFinalizer finalizer)""",147,155,147,155
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::setArchiveFinalizers( final List archiveFinalizers)""",158,161,158,161
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::runArchiveFinalizers()""",163,175,163,175
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::validate( final String path , final File outputDirectory)""",177,179,177,179
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::validate()""",181,220,181,220
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::setFileSelectors( final FileSelector [ ] fileSelectors)""",223,226,223,226
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::getFileSelectors()""",229,232,229,232
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::isSelected( final String fileName , final PlexusIoResource fileInfo)""",234,257,234,257
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::isUseJvmChmod()""",269,272,269,272
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::setUseJvmChmod( final boolean useJvmChmod)""",280,283,280,283
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::isIgnorePermissions()""",289,292,289,292
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::setIgnorePermissions( final boolean ignorePermissions)""",298,301,298,301
+"""src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java""","""AbstractUnArchiver::extractFile( final File srcF , final File dir , final InputStream compressedInputStream , final String entryName , final Date entryDate , final boolean isDirectory , final Integer mode , String symlinkDestination)""",303,370,303,361
+"""src/test/java/org/codehaus/plexus/archiver/zip/ZipUnArchiverTest.java""","""ZipUnArchiverTest::testExtractingZipPreservesExecutableFlag()""",19,43,19,43
+"""src/test/java/org/codehaus/plexus/archiver/zip/ZipUnArchiverTest.java""","""ZipUnArchiverTest::testZeroFileModeInZip()""",45,71,45,71
+"""src/test/java/org/codehaus/plexus/archiver/zip/ZipUnArchiverTest.java""","""ZipUnArchiverTest::testUnarchiveUtf8()""",73,89,73,89
+"""src/test/java/org/codehaus/plexus/archiver/zip/ZipUnArchiverTest.java""","""ZipUnArchiverTest::runUnarchiver( String path , FileSelector [ ] selectors , boolean [ ] results)""",91,118,91,118
+"""src/test/java/org/codehaus/plexus/archiver/zip/ZipUnArchiverTest.java""","""ZipUnArchiverTest::getZipUnArchiver( File testJar)""",120,125,120,125
+"""src/test/java/org/codehaus/plexus/archiver/zip/ZipUnArchiverTest.java""","""ZipUnArchiverTest::testExtractingADirectoryFromAJarFile()""",127,140,127,140
+"""src/test/java/org/codehaus/plexus/archiver/zip/ZipUnArchiverTest.java""","""ZipUnArchiverTest::testSelectors()""",142,191,142,191
+"""src/test/java/org/codehaus/plexus/archiver/zip/ZipUnArchiverTest.java""","""ZipUnArchiverTest::testExtractingZipWithEntryOutsideDestDirThrowsException()""",193,215,-1,-1
+"""src/test/java/org/codehaus/plexus/archiver/zip/ZipUnArchiverTest.java""","""ZipUnArchiverTest::getZipArchiver()""",217,227,193,203
+"""src/test/java/org/codehaus/plexus/archiver/zip/ZipUnArchiverTest.java""","""ZipUnArchiverTest::getZipArchiver( File destFile)""",229,234,205,210

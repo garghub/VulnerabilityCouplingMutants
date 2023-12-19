@@ -1,0 +1,13 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old,line_num,mod_type,mod
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::normalizePath( final String path)""",493,511,493,508,496,"""deleted""","""            return null;"""
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::normalizePath( final String path)""",493,511,493,508,496,"""added""","""            return ""/"";"""
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::normalizePath( final String path)""",493,511,493,508,507,"""added""","""        if (!s.startsWith(""/"")) {"""
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::normalizePath( final String path)""",493,511,493,508,508,"""added""","""            s = ""/"" + s;"""
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::normalizePath( final String path)""",493,511,493,508,509,"""added""","""        }"""
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""""",-1,-1,-1,-1,295,"""added""","""    @Test"""
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testMalformedPath()""",296,300,-1,-1,296,"""added""","""    public void testMalformedPath() throws Exception {"""
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testMalformedPath()""",296,300,-1,-1,297,"""added""","""        final String path = ""@notexample.com/mypath"";"""
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testMalformedPath()""",296,300,-1,-1,298,"""added""","""        final URI uri = new URIBuilder(path).setHost(""example.com"").build();"""
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testMalformedPath()""",296,300,-1,-1,299,"""added""","""        Assert.assertEquals(""example.com"", uri.getHost());"""
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testMalformedPath()""",296,300,-1,-1,300,"""added""","""    }"""
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""""",-1,-1,-1,-1,301,"""added""",""""""

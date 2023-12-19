@@ -1,0 +1,39 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""spring-web/src/main/java/org/springframework/http/HttpRange.java""","""HttpRange::toResourceRegion( Resource resource)""",60,69,57,72
+"""spring-web/src/main/java/org/springframework/http/HttpRange.java""","""HttpRange::getLengthFor( Resource resource)""",71,81,-1,-1
+"""spring-web/src/main/java/org/springframework/http/HttpRange.java""","""HttpRange::createByteRange( long firstBytePos)""",104,106,95,97
+"""spring-web/src/main/java/org/springframework/http/HttpRange.java""","""HttpRange::createByteRange( long firstBytePos , long lastBytePos)""",115,117,106,108
+"""spring-web/src/main/java/org/springframework/http/HttpRange.java""","""HttpRange::createSuffixRange( long suffixLength)""",125,127,116,118
+"""spring-web/src/main/java/org/springframework/http/HttpRange.java""","""HttpRange::parseRanges( @ Nullable String ranges)""",137,153,127,142
+"""spring-web/src/main/java/org/springframework/http/HttpRange.java""","""HttpRange::parseRange( String range)""",155,175,144,164
+"""spring-web/src/main/java/org/springframework/http/HttpRange.java""","""HttpRange::toResourceRegions( List<HttpRange> ranges , Resource resource)""",187,203,174,183
+"""spring-web/src/main/java/org/springframework/http/HttpRange.java""","""HttpRange::toString( Collection<HttpRange> ranges)""",211,222,191,202
+"""spring-web/src/main/java/org/springframework/http/HttpRange.java""","""HttpRange::ByteRange::ByteRange( long firstPos , @ Nullable Long lastPos)""",238,242,218,222
+"""spring-web/src/main/java/org/springframework/http/HttpRange.java""","""HttpRange::ByteRange::assertPositions( long firstBytePos , @ Nullable Long lastBytePos)""",244,252,224,232
+"""spring-web/src/main/java/org/springframework/http/HttpRange.java""","""HttpRange::ByteRange::getRangeStart( long length)""",255,257,235,237
+"""spring-web/src/main/java/org/springframework/http/HttpRange.java""","""HttpRange::ByteRange::getRangeEnd( long length)""",260,267,240,247
+"""spring-web/src/main/java/org/springframework/http/HttpRange.java""","""HttpRange::ByteRange::equals( Object other)""",270,280,250,260
+"""spring-web/src/main/java/org/springframework/http/HttpRange.java""","""HttpRange::ByteRange::hashCode()""",283,286,263,266
+"""spring-web/src/main/java/org/springframework/http/HttpRange.java""","""HttpRange::ByteRange::toString()""",289,297,269,277
+"""spring-web/src/main/java/org/springframework/http/HttpRange.java""","""HttpRange::SuffixByteRange::SuffixByteRange( long suffixLength)""",310,315,290,295
+"""spring-web/src/main/java/org/springframework/http/HttpRange.java""","""HttpRange::SuffixByteRange::getRangeStart( long length)""",318,325,298,305
+"""spring-web/src/main/java/org/springframework/http/HttpRange.java""","""HttpRange::SuffixByteRange::getRangeEnd( long length)""",328,330,308,310
+"""spring-web/src/main/java/org/springframework/http/HttpRange.java""","""HttpRange::SuffixByteRange::equals( Object other)""",333,342,313,322
+"""spring-web/src/main/java/org/springframework/http/HttpRange.java""","""HttpRange::SuffixByteRange::hashCode()""",345,347,325,327
+"""spring-web/src/main/java/org/springframework/http/HttpRange.java""","""HttpRange::SuffixByteRange::toString()""",350,352,330,332
+"""spring-web/src/test/java/org/springframework/http/HttpRangeTests.java""","""HttpRangeTests::invalidFirstPosition()""",44,46,42,44
+"""spring-web/src/test/java/org/springframework/http/HttpRangeTests.java""","""HttpRangeTests::invalidLastLessThanFirst()""",49,51,47,49
+"""spring-web/src/test/java/org/springframework/http/HttpRangeTests.java""","""HttpRangeTests::invalidSuffixLength()""",54,56,52,54
+"""spring-web/src/test/java/org/springframework/http/HttpRangeTests.java""","""HttpRangeTests::byteRange()""",59,63,57,61
+"""spring-web/src/test/java/org/springframework/http/HttpRangeTests.java""","""HttpRangeTests::byteRangeWithoutLastPosition()""",66,70,64,68
+"""spring-web/src/test/java/org/springframework/http/HttpRangeTests.java""","""HttpRangeTests::byteRangeOfZeroLength()""",73,77,71,75
+"""spring-web/src/test/java/org/springframework/http/HttpRangeTests.java""","""HttpRangeTests::suffixRange()""",80,84,78,82
+"""spring-web/src/test/java/org/springframework/http/HttpRangeTests.java""","""HttpRangeTests::suffixRangeShorterThanRepresentation()""",87,91,85,89
+"""spring-web/src/test/java/org/springframework/http/HttpRangeTests.java""","""HttpRangeTests::parseRanges()""",94,103,92,101
+"""spring-web/src/test/java/org/springframework/http/HttpRangeTests.java""","""HttpRangeTests::parseRangesValidations()""",106,128,-1,-1
+"""spring-web/src/test/java/org/springframework/http/HttpRangeTests.java""","""HttpRangeTests::rangeToString()""",131,137,104,110
+"""spring-web/src/test/java/org/springframework/http/HttpRangeTests.java""","""HttpRangeTests::toResourceRegion()""",140,148,113,121
+"""spring-web/src/test/java/org/springframework/http/HttpRangeTests.java""","""HttpRangeTests::toResourceRegionInputStreamResource()""",151,155,124,128
+"""spring-web/src/test/java/org/springframework/http/HttpRangeTests.java""","""HttpRangeTests::toResourceRegionIllegalLength()""",158,163,131,136
+"""spring-web/src/test/java/org/springframework/http/HttpRangeTests.java""","""HttpRangeTests::toResourceRegionExceptionLength()""",167,172,140,145
+"""spring-web/src/test/java/org/springframework/http/HttpRangeTests.java""","""HttpRangeTests::toResourceRegionsValidations()""",175,193,-1,-1

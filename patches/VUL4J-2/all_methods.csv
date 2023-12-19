@@ -1,0 +1,46 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::ProcessingInstructionInfo::ProcessingInstructionInfo( String target , String data)""",169,172,169,172
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::ProcessingInstructionInfo::createNode( Document doc)""",173,175,173,175
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::CommentInfo::CommentInfo( String comment)""",180,182,180,182
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::CommentInfo::createNode( Document doc)""",183,185,183,185
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::CDataInfo::CDataInfo( String cdata)""",190,192,190,192
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::CDataInfo::createNode( Document doc)""",193,195,193,195
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::TextInfo::TextInfo( String text)""",200,202,200,202
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::TextInfo::createNode( Document doc)""",203,205,203,205
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::SAXDocumentFactory( DOMImplementation impl , String parser)""",220,224,220,224
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::SAXDocumentFactory( DOMImplementation impl , String parser , boolean dd)""",232,238,232,238
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::createDocument( String ns , String root , String uri)""",247,250,247,250
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::createDocument( String uri)""",257,260,257,260
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::createDocument( String ns , String root , String uri , InputStream is)""",270,275,270,275
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::createDocument( String uri , InputStream is)""",283,288,283,288
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::createDocument( String ns , String root , String uri , Reader r)""",298,303,298,303
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::createDocument( String ns , String root , String uri , XMLReader r)""",313,332,313,332
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::createDocument( String uri , Reader r)""",340,344,340,344
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::createDocument( String ns , String root , String uri , InputSource is)""",354,397,354,397
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::catch( SAXNotRecognizedException e)""",406,408,405,407
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::catch( SAXNotSupportedException e)""",408,410,407,409
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::catch( ParserConfigurationException e)""",410,412,409,411
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::createDocument( InputSource is)""",420,469,419,467
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::getDocumentDescriptor()""",476,478,474,476
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::setDocumentLocator( Locator l)""",484,486,482,484
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::setValidating( boolean isValidating)""",495,497,493,495
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::isValidating()""",503,505,501,503
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::setErrorHandler( ErrorHandler eh)""",510,512,508,510
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::getDOMImplementation( String ver)""",514,516,512,514
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::fatalError( SAXParseException ex)""",522,524,520,522
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::error( SAXParseException ex)""",530,532,528,530
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::warning( SAXParseException ex)""",538,539,536,537
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::startDocument()""",545,569,543,567
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::startElement( String uri , String localName , String rawName , Attributes attributes)""",575,678,573,676
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::endElement( String uri , String localName , String rawName)""",684,691,682,689
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::appendStringData()""",693,708,691,706
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::characters( char [ ] ch , int start , int length)""",714,718,712,716
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::ignorableWhitespace( char [ ] ch , int start , int length)""",725,731,723,729
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::processingInstruction( String target , String data)""",737,749,735,747
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::startDTD( String name , String publicId , String systemId)""",757,762,755,760
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::endDTD()""",767,769,765,767
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::startEntity( String name)""",775,776,773,774
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::endEntity( String name)""",782,783,780,781
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::startCDATA()""",789,793,787,791
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::endCDATA()""",799,802,797,800
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::comment( char [ ] ch , int start , int length)""",808,818,806,816

@@ -1,0 +1,8 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""src/main/java/com/alibaba/fastjson/serializer/ObjectArrayCodec.java""","""ObjectArrayCodec::ObjectArrayCodec()""",39,40,39,40
+"""src/main/java/com/alibaba/fastjson/serializer/ObjectArrayCodec.java""","""ObjectArrayCodec::write( JSONSerializer serializer , Object object , Object fieldName , Type fieldType , int features)""",42,125,42,125
+"""src/main/java/com/alibaba/fastjson/serializer/ObjectArrayCodec.java""","""ObjectArrayCodec::deserialze( DefaultJSONParser parser , Type type , Object fieldName)""",128,180,128,180
+"""src/main/java/com/alibaba/fastjson/serializer/ObjectArrayCodec.java""","""ObjectArrayCodec::toObjectArray( DefaultJSONParser parser , Class <?> componentType , JSONArray array)""",183,237,183,237
+"""src/main/java/com/alibaba/fastjson/serializer/ObjectArrayCodec.java""","""ObjectArrayCodec::getFastMatchToken()""",239,241,239,241
+"""src/test/java/com/alibaba/json/bvt/bug/Issue1005.java""","""Issue1005::test_for_issue()""",12,20,12,19
+"""src/test/java/com/alibaba/json/bvt/bug/Issue1005.java""","""Issue1005::test_for_List()""",22,30,-1,-1

@@ -1,0 +1,3 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old,line_num,mod_type,mod
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""""",-1,-1,-1,-1,405,"""added""","""			saxFactory.setFeature(""http://apache.org/xml/features/nonvalidating/load-external-dtd"", false);"""
+"""batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java""","""SAXDocumentFactory::createDocument( InputSource is)""",420,469,419,467,450,"""added""","""			parser.setFeature(""http://apache.org/xml/features/nonvalidating/load-external-dtd"", false);"""

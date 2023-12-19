@@ -1,0 +1,25 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/json/patch/AddOperation.java""","""AddOperation::AddOperation( String path , Object value)""",33,35,38,40
+"""spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/json/patch/AddOperation.java""","""AddOperation::perform( Object targetObject , Class<T> type)""",42,44,47,49
+"""spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/json/patch/AddOperation.java""","""AddOperation::evaluateValueFromTarget( Object targetObject , Class<T> entityType)""",51,58,56,72
+"""spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/json/patch/PatchOperation.java""","""PatchOperation::PatchOperation( String op , String path)""",56,58,49,51
+"""spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/json/patch/PatchOperation.java""","""PatchOperation::PatchOperation( String op , String path , Object value)""",68,74,61,67
+"""spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/json/patch/PatchOperation.java""","""PatchOperation::getOp()""",79,81,72,74
+"""spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/json/patch/PatchOperation.java""","""PatchOperation::getPath()""",86,88,79,81
+"""spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/json/patch/PatchOperation.java""","""PatchOperation::getValue()""",93,95,86,88
+"""spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/json/patch/PatchOperation.java""","""PatchOperation::popValueAtPath( Object target , String removePath)""",104,126,97,119
+"""spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/json/patch/PatchOperation.java""","""PatchOperation::addValue( Object target , Object value)""",136,163,129,156
+"""spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/json/patch/PatchOperation.java""","""PatchOperation::setValueOnTarget( Object target , Object value)""",171,173,164,166
+"""spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/json/patch/PatchOperation.java""","""PatchOperation::getValueFromTarget( Object target)""",181,188,174,181
+"""spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/json/patch/PatchOperation.java""","""PatchOperation::evaluateValueFromTarget( Object targetObject , Class<T> entityType)""",199,204,192,196
+"""spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/json/patch/PatchOperation.java""","""PatchOperation::evaluate( Class<T> type)""",206,208,-1,-1
+"""spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/json/patch/PatchOperation.java""","""PatchOperation::verifyPath( Class <?> type)""",217,234,-1,-1
+"""spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/json/patch/PatchOperation.java""","""PatchOperation::targetListIndex( String path)""",243,257,205,219
+"""spring-data-rest-webmvc/src/test/java/org/springframework/data/rest/webmvc/json/patch/JsonPatchTests.java""","""JsonPatchTests::manySuccessfulOperations()""",49,68,49,68
+"""spring-data-rest-webmvc/src/test/java/org/springframework/data/rest/webmvc/json/patch/JsonPatchTests.java""","""JsonPatchTests::failureAtBeginning()""",71,95,71,95
+"""spring-data-rest-webmvc/src/test/java/org/springframework/data/rest/webmvc/json/patch/JsonPatchTests.java""","""JsonPatchTests::failureInMiddle()""",98,122,98,122
+"""spring-data-rest-webmvc/src/test/java/org/springframework/data/rest/webmvc/json/patch/JsonPatchTests.java""","""JsonPatchTests::patchArray()""",125,134,125,134
+"""spring-data-rest-webmvc/src/test/java/org/springframework/data/rest/webmvc/json/patch/JsonPatchTests.java""","""JsonPatchTests::patchUnknownType()""",137,147,137,147
+"""spring-data-rest-webmvc/src/test/java/org/springframework/data/rest/webmvc/json/patch/JsonPatchTests.java""","""JsonPatchTests::failureWithInvalidPatchContent()""",150,163,150,163
+"""spring-data-rest-webmvc/src/test/java/org/springframework/data/rest/webmvc/json/patch/JsonPatchTests.java""","""JsonPatchTests::rejectsInvalidPaths()""",166,168,-1,-1
+"""spring-data-rest-webmvc/src/test/java/org/springframework/data/rest/webmvc/json/patch/JsonPatchTests.java""","""JsonPatchTests::readJsonPatch( String jsonPatchFile)""",170,177,165,172

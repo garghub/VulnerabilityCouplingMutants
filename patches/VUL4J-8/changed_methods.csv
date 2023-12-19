@@ -1,0 +1,4 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old,line_num,mod_type,mod
+"""src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java""","""NioZipEncoding::encode( final String name)""",78,127,78,124,115,"""added""",""""""
+"""src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java""","""NioZipEncoding::encode( final String name)""",78,127,78,124,116,"""added""","""            } else if (res.isUnderflow() || res.isError()) {"""
+"""src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java""","""NioZipEncoding::encode( final String name)""",78,127,78,124,117,"""added""","""                break;"""

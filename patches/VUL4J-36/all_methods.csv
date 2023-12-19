@@ -1,0 +1,15 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""tika-parsers/src/main/java/org/apache/tika/parser/iptc/IptcAnpaParser.java""","""IptcAnpaParser::getSupportedTypes( ParseContext context)""",55,57,55,57
+"""tika-parsers/src/main/java/org/apache/tika/parser/iptc/IptcAnpaParser.java""","""IptcAnpaParser::parse( InputStream stream , ContentHandler handler , Metadata metadata , ParseContext context)""",59,76,59,76
+"""tika-parsers/src/main/java/org/apache/tika/parser/iptc/IptcAnpaParser.java""","""IptcAnpaParser::parse( InputStream stream , ContentHandler handler , Metadata metadata)""",81,85,81,85
+"""tika-parsers/src/main/java/org/apache/tika/parser/iptc/IptcAnpaParser.java""","""IptcAnpaParser::loadProperties( InputStream is)""",134,152,134,152
+"""tika-parsers/src/main/java/org/apache/tika/parser/iptc/IptcAnpaParser.java""","""IptcAnpaParser::scanFormat( InputStream is)""",155,198,155,198
+"""tika-parsers/src/main/java/org/apache/tika/parser/iptc/IptcAnpaParser.java""","""IptcAnpaParser::setFormat( int format)""",201,203,201,203
+"""tika-parsers/src/main/java/org/apache/tika/parser/iptc/IptcAnpaParser.java""","""IptcAnpaParser::getFormatName()""",206,227,206,227
+"""tika-parsers/src/main/java/org/apache/tika/parser/iptc/IptcAnpaParser.java""","""IptcAnpaParser::getSection( InputStream is , String name)""",230,267,230,267
+"""tika-parsers/src/main/java/org/apache/tika/parser/iptc/IptcAnpaParser.java""","""IptcAnpaParser::getSection( InputStream is , int maxsize , byte bstart , byte bfinish , boolean ifincomplete)""",270,345,270,345
+"""tika-parsers/src/main/java/org/apache/tika/parser/iptc/IptcAnpaParser.java""","""IptcAnpaParser::parseHeader( byte [ ] value , HashMap<String,String> properties)""",348,441,348,441
+"""tika-parsers/src/main/java/org/apache/tika/parser/iptc/IptcAnpaParser.java""","""IptcAnpaParser::parseBody( byte [ ] value , HashMap<String,String> properties)""",443,694,443,694
+"""tika-parsers/src/main/java/org/apache/tika/parser/iptc/IptcAnpaParser.java""","""IptcAnpaParser::parseFooter( byte [ ] value , HashMap<String,String> properties)""",697,768,697,768
+"""tika-parsers/src/main/java/org/apache/tika/parser/iptc/IptcAnpaParser.java""","""IptcAnpaParser::setMetadata( Metadata metadata , HashMap<String,String> properties)""",771,791,771,791
+"""tika-parsers/src/main/java/org/apache/tika/parser/iptc/IptcAnpaParser.java""","""IptcAnpaParser::clean( String value)""",793,807,793,807

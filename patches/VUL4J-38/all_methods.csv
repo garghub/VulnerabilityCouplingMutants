@@ -1,0 +1,38 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/AbstractUrlBasedTicketValidator.java""","""AbstractUrlBasedTicketValidator::AbstractUrlBasedTicketValidator( final String casServerUrlPrefix)""",73,76,73,76
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/AbstractUrlBasedTicketValidator.java""","""AbstractUrlBasedTicketValidator::populateUrlAttributeMap( final Map<String,String> urlParameters)""",83,85,83,85
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/AbstractUrlBasedTicketValidator.java""","""AbstractUrlBasedTicketValidator::constructValidationUrl( final String ticket , final String serviceUrl)""",108,154,108,153
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/AbstractUrlBasedTicketValidator.java""","""AbstractUrlBasedTicketValidator::encodeUrl( final String url)""",162,172,161,171
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/AbstractUrlBasedTicketValidator.java""","""AbstractUrlBasedTicketValidator::validate( final String ticket , final String service)""",194,212,193,211
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/AbstractUrlBasedTicketValidator.java""","""AbstractUrlBasedTicketValidator::setRenew( final boolean renew)""",214,216,213,215
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/AbstractUrlBasedTicketValidator.java""","""AbstractUrlBasedTicketValidator::setCustomParameters( final Map<String,String> customParameters)""",218,220,217,219
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/AbstractUrlBasedTicketValidator.java""","""AbstractUrlBasedTicketValidator::setEncoding( final String encoding)""",222,224,221,223
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/AbstractUrlBasedTicketValidator.java""","""AbstractUrlBasedTicketValidator::getEncoding()""",226,228,225,227
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/AbstractUrlBasedTicketValidator.java""","""AbstractUrlBasedTicketValidator::isRenew()""",230,232,229,231
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/AbstractUrlBasedTicketValidator.java""","""AbstractUrlBasedTicketValidator::getCasServerUrlPrefix()""",234,236,233,235
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/AbstractUrlBasedTicketValidator.java""","""AbstractUrlBasedTicketValidator::getCustomParameters()""",238,240,237,239
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/AbstractUrlBasedTicketValidator.java""","""AbstractUrlBasedTicketValidator::getURLConnectionFactory()""",242,244,241,243
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/AbstractUrlBasedTicketValidator.java""","""AbstractUrlBasedTicketValidator::setURLConnectionFactory( final HttpURLConnectionFactory urlConnectionFactory)""",246,248,245,247
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/Cas20ServiceTicketValidator.java""","""Cas20ServiceTicketValidator::Cas20ServiceTicketValidator( final String casServerUrlPrefix)""",62,65,62,65
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/Cas20ServiceTicketValidator.java""","""Cas20ServiceTicketValidator::populateUrlAttributeMap( final Map<String,String> urlParameters)""",72,74,72,74
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/Cas20ServiceTicketValidator.java""","""Cas20ServiceTicketValidator::getUrlSuffix()""",76,78,76,78
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/Cas20ServiceTicketValidator.java""","""Cas20ServiceTicketValidator::parseResponseFromServer( final String response)""",80,114,80,114
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/Cas20ServiceTicketValidator.java""","""Cas20ServiceTicketValidator::extractCustomAttributes( final String xml)""",134,149,134,149
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/Cas20ServiceTicketValidator.java""","""Cas20ServiceTicketValidator::customParseResponse( final String response , final Assertion assertion)""",158,161,158,161
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/Cas20ServiceTicketValidator.java""","""Cas20ServiceTicketValidator::setProxyCallbackUrl( final String proxyCallbackUrl)""",163,165,163,165
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/Cas20ServiceTicketValidator.java""","""Cas20ServiceTicketValidator::setProxyGrantingTicketStorage( final ProxyGrantingTicketStorage proxyGrantingTicketStorage)""",167,169,167,169
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/Cas20ServiceTicketValidator.java""","""Cas20ServiceTicketValidator::setProxyRetriever( final ProxyRetriever proxyRetriever)""",171,173,171,173
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/Cas20ServiceTicketValidator.java""","""Cas20ServiceTicketValidator::getProxyCallbackUrl()""",175,177,175,177
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/Cas20ServiceTicketValidator.java""","""Cas20ServiceTicketValidator::getProxyGrantingTicketStorage()""",179,181,179,181
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/Cas20ServiceTicketValidator.java""","""Cas20ServiceTicketValidator::getProxyRetriever()""",183,185,183,185
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/Cas20ServiceTicketValidator.java""","""Cas20ServiceTicketValidator::CustomAttributeHandler::startDocument()""",198,200,198,200
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/Cas20ServiceTicketValidator.java""","""Cas20ServiceTicketValidator::CustomAttributeHandler::startElement( final String namespaceURI , final String localName , final String qName , final Attributes attributes)""",203,211,203,211
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/Cas20ServiceTicketValidator.java""","""Cas20ServiceTicketValidator::CustomAttributeHandler::characters( final char [ ] chars , final int start , final int length)""",214,218,214,218
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/Cas20ServiceTicketValidator.java""","""Cas20ServiceTicketValidator::CustomAttributeHandler::endElement( final String namespaceURI , final String localName , final String qName)""",221,243,221,243
+"""cas-client-core/src/main/java/org/jasig/cas/client/validation/Cas20ServiceTicketValidator.java""","""Cas20ServiceTicketValidator::CustomAttributeHandler::getAttributes()""",245,247,245,247
+"""cas-client-core/src/test/java/org/jasig/cas/client/validation/Cas10TicketValidatorTests.java""","""Cas10TicketValidatorTests::Cas10TicketValidatorTests()""",40,42,41,43
+"""cas-client-core/src/test/java/org/jasig/cas/client/validation/Cas10TicketValidatorTests.java""","""Cas10TicketValidatorTests::setUp()""",50,52,51,53
+"""cas-client-core/src/test/java/org/jasig/cas/client/validation/Cas10TicketValidatorTests.java""","""Cas10TicketValidatorTests::testNoResponse()""",55,63,56,64
+"""cas-client-core/src/test/java/org/jasig/cas/client/validation/Cas10TicketValidatorTests.java""","""Cas10TicketValidatorTests::testYesResponse()""",66,70,67,71
+"""cas-client-core/src/test/java/org/jasig/cas/client/validation/Cas10TicketValidatorTests.java""","""Cas10TicketValidatorTests::testBadResponse()""",73,81,74,82
+"""cas-client-core/src/test/java/org/jasig/cas/client/validation/Cas10TicketValidatorTests.java""","""Cas10TicketValidatorTests::urlEncodedValues()""",84,92,-1,-1

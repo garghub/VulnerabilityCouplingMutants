@@ -1,0 +1,50 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""core/src/main/java/com/opensymphony/xwork2/interceptor/I18nInterceptor.java""","""I18nInterceptor::I18nInterceptor()""",99,101,98,100
+"""core/src/main/java/com/opensymphony/xwork2/interceptor/I18nInterceptor.java""","""I18nInterceptor::setParameterName( String parameterName)""",103,105,102,104
+"""core/src/main/java/com/opensymphony/xwork2/interceptor/I18nInterceptor.java""","""I18nInterceptor::setRequestOnlyParameterName( String requestOnlyParameterName)""",107,109,106,108
+"""core/src/main/java/com/opensymphony/xwork2/interceptor/I18nInterceptor.java""","""I18nInterceptor::setAttributeName( String attributeName)""",111,113,110,112
+"""core/src/main/java/com/opensymphony/xwork2/interceptor/I18nInterceptor.java""","""I18nInterceptor::intercept( ActionInvocation invocation)""",116,138,115,137
+"""core/src/main/java/com/opensymphony/xwork2/interceptor/I18nInterceptor.java""","""I18nInterceptor::storeLocale( ActionInvocation invocation , Locale locale , String storage)""",149,166,148,165
+"""core/src/main/java/com/opensymphony/xwork2/interceptor/I18nInterceptor.java""","""I18nInterceptor::LocaleFinder::LocaleFinder( ActionInvocation invocation)""",174,177,173,176
+"""core/src/main/java/com/opensymphony/xwork2/interceptor/I18nInterceptor.java""","""I18nInterceptor::LocaleFinder::find()""",179,194,178,193
+"""core/src/main/java/com/opensymphony/xwork2/interceptor/I18nInterceptor.java""","""I18nInterceptor::LocaleFinder::getStorage()""",196,198,195,197
+"""core/src/main/java/com/opensymphony/xwork2/interceptor/I18nInterceptor.java""","""I18nInterceptor::LocaleFinder::getRequestedLocale()""",200,202,199,201
+"""core/src/main/java/com/opensymphony/xwork2/interceptor/I18nInterceptor.java""","""I18nInterceptor::getLocaleFromParam( Object requestedLocale)""",212,227,211,222
+"""core/src/main/java/com/opensymphony/xwork2/interceptor/I18nInterceptor.java""","""I18nInterceptor::readStoredLocale( ActionInvocation invocation , Map<String,Object> session)""",237,245,232,240
+"""core/src/main/java/com/opensymphony/xwork2/interceptor/I18nInterceptor.java""","""I18nInterceptor::readStoredLocalFromSession( ActionInvocation invocation , Map<String,Object> session)""",247,256,242,251
+"""core/src/main/java/com/opensymphony/xwork2/interceptor/I18nInterceptor.java""","""I18nInterceptor::readStoredLocalFromCurrentInvocation( ActionInvocation invocation)""",258,265,253,260
+"""core/src/main/java/com/opensymphony/xwork2/interceptor/I18nInterceptor.java""","""I18nInterceptor::findLocaleParameter( Map<String,Object> params , String parameterName)""",267,276,262,271
+"""core/src/main/java/com/opensymphony/xwork2/interceptor/I18nInterceptor.java""","""I18nInterceptor::saveLocale( ActionInvocation invocation , Locale locale)""",284,286,279,281
+"""core/src/test/java/com/opensymphony/xwork2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testEmptyParamAndSession()""",43,45,43,45
+"""core/src/test/java/com/opensymphony/xwork2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testNoSession()""",47,50,47,50
+"""core/src/test/java/com/opensymphony/xwork2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testDefaultLocale()""",52,60,52,60
+"""core/src/test/java/com/opensymphony/xwork2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testDenmarkLocale()""",62,71,62,71
+"""core/src/test/java/com/opensymphony/xwork2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testDenmarkLocaleRequestOnly()""",73,82,73,82
+"""core/src/test/java/com/opensymphony/xwork2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testCountryOnlyLocale()""",84,93,84,93
+"""core/src/test/java/com/opensymphony/xwork2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testLanguageOnlyLocale()""",95,104,95,104
+"""core/src/test/java/com/opensymphony/xwork2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testWithVariant()""",106,117,106,117
+"""core/src/test/java/com/opensymphony/xwork2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testWithVariantRequestOnly()""",119,131,119,131
+"""core/src/test/java/com/opensymphony/xwork2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testRealLocaleObjectInParams()""",133,141,133,141
+"""core/src/test/java/com/opensymphony/xwork2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testRealLocalesInParams()""",143,153,143,153
+"""core/src/test/java/com/opensymphony/xwork2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testSetParameterAndAttributeNames()""",155,166,155,166
+"""core/src/test/java/com/opensymphony/xwork2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testActionContextLocaleIsPreservedWhenNotOverridden()""",168,177,168,177
+"""core/src/test/java/com/opensymphony/xwork2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::setUp()""",180,195,180,195
+"""core/src/test/java/com/opensymphony/xwork2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::tearDown()""",198,205,198,205
+"""core/src/test/java/org/apache/struts2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::setUp()""",53,72,53,72
+"""core/src/test/java/org/apache/struts2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::tearDown()""",75,82,75,82
+"""core/src/test/java/org/apache/struts2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::CookieMatcher::CookieMatcher( Cookie cookie)""",87,89,87,89
+"""core/src/test/java/org/apache/struts2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::CookieMatcher::matches( Object argument)""",91,96,91,96
+"""core/src/test/java/org/apache/struts2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::CookieMatcher::eqCookie( Cookie ck)""",98,101,98,101
+"""core/src/test/java/org/apache/struts2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::CookieMatcher::appendTo( StringBuffer buffer)""",103,109,103,109
+"""core/src/test/java/org/apache/struts2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testCookieCreation()""",113,131,113,131
+"""core/src/test/java/org/apache/struts2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testNoSession()""",134,137,134,137
+"""core/src/test/java/org/apache/struts2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testDefaultLocale()""",140,148,140,148
+"""core/src/test/java/org/apache/struts2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testDenmarkLocale()""",151,160,151,160
+"""core/src/test/java/org/apache/struts2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testDenmarkLocaleRequestOnly()""",163,172,163,172
+"""core/src/test/java/org/apache/struts2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testCountryOnlyLocale()""",175,184,175,184
+"""core/src/test/java/org/apache/struts2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testLanguageOnlyLocale()""",187,196,187,196
+"""core/src/test/java/org/apache/struts2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testWithVariant()""",199,210,199,210
+"""core/src/test/java/org/apache/struts2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testWithVariantRequestOnly()""",213,225,213,225
+"""core/src/test/java/org/apache/struts2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testRealLocaleObjectInParams()""",228,236,228,236
+"""core/src/test/java/org/apache/struts2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testRealLocalesInParams()""",239,249,239,249
+"""core/src/test/java/org/apache/struts2/interceptor/I18nInterceptorTest.java""","""I18nInterceptorTest::testSetParameterAndAttributeNames()""",252,263,252,263

@@ -1,0 +1,24 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::SandboxTransformer()""",126,128,126,128
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::call( final SourceUnit source , GeneratorContext context , ClassNode classNode)""",131,149,131,148
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::forbidIfFinalizer( MethodNode m)""",155,169,-1,-1
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::processConstructors( final ClassCodeExpressionTransformer visitor , ClassNode classNode)""",180,253,159,232
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::createVisitor( SourceUnit source)""",256,258,235,237
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::createVisitor( SourceUnit source , ClassNode clazz)""",260,262,239,241
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::VisitorImpl::VisitorImpl( SourceUnit sourceUnit , ClassNode clazz)""",293,296,272,275
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::VisitorImpl::visitMethod( MethodNode node)""",299,304,278,283
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::VisitorImpl::transformArguments( Expression e)""",311,325,290,304
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::VisitorImpl::makeCheckedCall( String name , Expression ... arguments)""",327,330,306,309
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::VisitorImpl::transform( Expression exp)""",333,339,312,318
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::VisitorImpl::innerTransform( Expression exp)""",341,628,320,607
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::VisitorImpl::prefixPostfixExp( Expression whole , Expression atom , Token opToken , String mode)""",630,689,609,668
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::VisitorImpl::withLoc( ASTNode src , T t)""",694,697,673,676
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::VisitorImpl::transformObjectExpression( PropertyExpression exp)""",702,708,681,687
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::VisitorImpl::isLocalVariableExpression( Expression exp)""",710,716,689,695
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::VisitorImpl::boolExp( boolean v)""",718,720,697,699
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::VisitorImpl::intExp( int v)""",722,724,701,703
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::VisitorImpl::classExp( ClassNode c)""",726,728,705,707
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::VisitorImpl::stringExp( String v)""",730,732,709,711
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::VisitorImpl::visitExpressionStatement( ExpressionStatement es)""",735,754,714,733
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::VisitorImpl::getSourceUnit()""",757,759,736,738
+"""src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java""","""SandboxTransformer::mightBePositionalArgumentConstructor( VariableExpression ve)""",769,781,748,760

@@ -1,0 +1,13 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old,line_num,mod_type,mod
+"""src/main/java/org/owasp/esapi/codecs/PercentCodec.java""","""""",-1,-1,-1,-1,92,"""deleted""","""	 * @param immune characters not to encode"""
+"""src/main/java/org/owasp/esapi/codecs/PercentCodec.java""","""""",-1,-1,-1,-1,92,"""added""","""	 * @param immune Additional characters not to encode. Note this could"""
+"""src/main/java/org/owasp/esapi/codecs/PercentCodec.java""","""""",-1,-1,-1,-1,93,"""added""","""     *               break URL encoding as referenced in RFC 3986. You should"""
+"""src/main/java/org/owasp/esapi/codecs/PercentCodec.java""","""""",-1,-1,-1,-1,94,"""added""","""     *               especially be wary of including '%' in this list of immune"""
+"""src/main/java/org/owasp/esapi/codecs/PercentCodec.java""","""""",-1,-1,-1,-1,95,"""added""","""     *               characters since it is used as the ""escape"" character for"""
+"""src/main/java/org/owasp/esapi/codecs/PercentCodec.java""","""""",-1,-1,-1,-1,96,"""added""","""     *               the hex encoding and including it may result in subsequent"""
+"""src/main/java/org/owasp/esapi/codecs/PercentCodec.java""","""""",-1,-1,-1,-1,97,"""added""","""     *               and/or dangerous results when decoding."""
+"""src/main/java/org/owasp/esapi/codecs/PercentCodec.java""","""PercentCodec::encodeCharacter( char [ ] immune , Character c)""",101,120,96,110,107,"""added""","""        // check for user specified immune characters"""
+"""src/main/java/org/owasp/esapi/codecs/PercentCodec.java""","""PercentCodec::encodeCharacter( char [ ] immune , Character c)""",101,120,96,110,108,"""added""","""        if ( immune != null && containsCharacter( c.charValue(), immune ) )"""
+"""src/main/java/org/owasp/esapi/codecs/PercentCodec.java""","""PercentCodec::encodeCharacter( char [ ] immune , Character c)""",101,120,96,110,109,"""added""","""            return cStr;"""
+"""src/main/java/org/owasp/esapi/codecs/PercentCodec.java""","""PercentCodec::encodeCharacter( char [ ] immune , Character c)""",101,120,96,110,110,"""added""",""""""
+"""src/main/java/org/owasp/esapi/codecs/PercentCodec.java""","""PercentCodec::encodeCharacter( char [ ] immune , Character c)""",101,120,96,110,111,"""added""","""        // check for standard characters (e.g., alphanumeric, etc.)"""

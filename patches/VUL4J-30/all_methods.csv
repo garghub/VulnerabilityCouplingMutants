@@ -1,0 +1,5 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.java""","""URLValidator::validate( Object object)""",48,61,48,61
+"""core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.java""","""URLValidator::getUrlRegex()""",69,90,69,90
+"""core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.java""","""URLValidator::setUrlRegex( String urlRegex)""",92,94,92,94
+"""core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.java""","""URLValidator::setUrlRegexExpression( String urlRegexExpression)""",96,98,96,98

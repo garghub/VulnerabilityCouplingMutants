@@ -1,0 +1,82 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",11,31,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",35,42,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",46,67,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",70,77,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",80,98,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",101,119,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",122,137,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",141,163,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",166,181,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",185,214,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",218,233,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",236,246,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",249,286,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""anythingElse( Tokeniser t , CharacterReader r)""",288,292,288,292
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",295,303,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",306,314,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",317,319,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",322,337,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",340,349,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",352,354,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",357,364,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",367,374,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",377,401,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",404,429,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",432,460,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",463,476,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",479,489,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",492,494,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",497,499,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",502,526,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",529,553,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",556,583,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",586,594,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",597,599,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",603,643,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",647,685,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",688,730,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",733,779,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",782,809,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",812,839,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",842,886,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",890,917,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",920,936,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",939,949,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",952,967,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",970,995,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",998,1023,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",1026,1045,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",1048,1068,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",1071,1101,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",1104,1129,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",1132,1156,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",1159,1191,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",1194,1226,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",1229,1252,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",1255,1292,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",1295,1329,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",1332,1357,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",1360,1385,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",1388,1423,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",1426,1460,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",1463,1500,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",1503,1537,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",1540,1565,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",1568,1593,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",1596,1620,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",1623,1638,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""read( Tokeniser t , CharacterReader r)""",1641,1646,11,31
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""handleDataEndTag( Tokeniser t , CharacterReader r , TokeniserState elseTransition)""",1671,1709,1670,1708
+"""src/main/java/org/jsoup/parser/TokeniserState.java""","""handleDataDoubleEscapeTag( Tokeniser t , CharacterReader r , TokeniserState primary , TokeniserState fallback)""",1711,1738,1710,1737
+"""src/test/java/org/jsoup/parser/XmlTreeBuilderTest.java""","""XmlTreeBuilderTest::testSimpleXmlParse()""",30,37,30,37
+"""src/test/java/org/jsoup/parser/XmlTreeBuilderTest.java""","""XmlTreeBuilderTest::testPopToClose()""",40,47,40,47
+"""src/test/java/org/jsoup/parser/XmlTreeBuilderTest.java""","""XmlTreeBuilderTest::testCommentAndDocType()""",50,56,50,56
+"""src/test/java/org/jsoup/parser/XmlTreeBuilderTest.java""","""XmlTreeBuilderTest::testSupplyParserToJsoupClass()""",59,64,59,64
+"""src/test/java/org/jsoup/parser/XmlTreeBuilderTest.java""","""XmlTreeBuilderTest::testSupplyParserToConnection()""",68,80,68,80
+"""src/test/java/org/jsoup/parser/XmlTreeBuilderTest.java""","""XmlTreeBuilderTest::testSupplyParserToDataStream()""",83,89,83,89
+"""src/test/java/org/jsoup/parser/XmlTreeBuilderTest.java""","""XmlTreeBuilderTest::testDoesNotForceSelfClosingKnownTags()""",92,99,92,99
+"""src/test/java/org/jsoup/parser/XmlTreeBuilderTest.java""","""XmlTreeBuilderTest::handlesXmlDeclarationAsDeclaration()""",101,108,101,108
+"""src/test/java/org/jsoup/parser/XmlTreeBuilderTest.java""","""XmlTreeBuilderTest::xmlFragment()""",110,118,110,118
+"""src/test/java/org/jsoup/parser/XmlTreeBuilderTest.java""","""XmlTreeBuilderTest::xmlParseDefaultsToHtmlOutputSyntax()""",120,123,120,123
+"""src/test/java/org/jsoup/parser/XmlTreeBuilderTest.java""","""XmlTreeBuilderTest::testDoesHandleEOFInTag()""",126,130,-1,-1

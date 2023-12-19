@@ -1,0 +1,69 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::URIBuilder()""",67,70,67,70
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::URIBuilder( final String string)""",78,81,78,81
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::URIBuilder( final URI uri)""",87,90,87,90
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::setCharset( final Charset charset)""",95,98,95,98
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::getCharset()""",103,105,103,105
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::parseQuery( final String query , final Charset charset)""",107,112,107,112
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::build()""",117,119,117,119
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::buildString()""",121,166,121,166
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::digestURI( final URI uri)""",168,182,168,182
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::encodeUserInfo( final String userInfo)""",184,186,184,186
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::encodePath( final String path)""",188,190,188,190
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::encodeUrlForm( final List<NameValuePair> params)""",192,194,192,194
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::encodeUric( final String fragment)""",196,198,196,198
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::setScheme( final String scheme)""",203,206,203,206
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::setUserInfo( final String userInfo)""",212,218,212,218
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::setUserInfo( final String username , final String password)""",224,226,224,226
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::setHost( final String host)""",231,236,231,236
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::setPort( final int port)""",241,246,241,246
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::setPath( final String path)""",251,256,251,256
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::removeQuery()""",261,267,261,267
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::setQuery( final String query)""",279,285,279,285
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::setParameters( final List<NameValuePair> nvps)""",297,308,297,308
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::addParameters( final List<NameValuePair> nvps)""",320,329,320,329
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::setParameters( final NameValuePair ... nvps)""",341,354,341,354
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::addParameter( final String param , final String value)""",364,373,364,373
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::setParameter( final String param , final String value)""",383,400,383,400
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::clearParameters()""",407,412,407,412
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::setCustomQuery( final String query)""",424,430,424,430
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::setFragment( final String fragment)""",436,440,436,440
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::isAbsolute()""",445,447,445,447
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::isOpaque()""",452,454,452,454
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::getScheme()""",456,458,456,458
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::getUserInfo()""",460,462,460,462
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::getHost()""",464,466,464,466
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::getPort()""",468,470,468,470
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::getPath()""",472,474,472,474
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::getQueryParams()""",476,482,476,482
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::getFragment()""",484,486,484,486
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::toString()""",489,491,489,491
+"""httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java""","""URIBuilder::normalizePath( final String path)""",493,511,493,508
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testHierarchicalUri()""",44,49,44,49
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testMutationToRelativeUri()""",52,57,52,57
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testMutationRemoveFragment()""",60,64,60,64
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testMutationRemoveUserInfo()""",67,71,67,71
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testMutationRemovePort()""",74,78,74,78
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testOpaqueUri()""",81,86,81,86
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testOpaqueUriMutation()""",89,93,89,93
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testHierarchicalUriMutation()""",96,99,96,99
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testEmpty()""",102,106,102,106
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testSetUserInfo()""",109,114,109,114
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testRemoveParameters()""",117,122,117,122
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testSetParameter()""",125,131,125,131
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testParameterWithSpecialChar()""",134,141,134,141
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testAddParameter()""",144,151,144,151
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testQueryEncoding()""",154,161,154,161
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testQueryAndParameterEncoding()""",164,171,164,171
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testPathEncoding()""",174,182,174,182
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testAgainstURI()""",185,211,185,211
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testAgainstURIEncoded()""",214,240,214,240
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testBuildAddParametersUTF8()""",243,245,243,245
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testBuildAddParametersISO88591()""",248,250,248,250
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::assertAddParameters( final Charset charset)""",252,258,252,258
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testBuildSetParametersUTF8()""",261,263,261,263
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testBuildSetParametersISO88591()""",266,268,266,268
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::assertSetParameters( final Charset charset)""",270,276,270,276
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::assertBuild( final Charset charset , final URI uri)""",278,285,278,285
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::createParameters()""",287,293,287,293
+"""httpclient/src/test/java/org/apache/http/client/utils/TestURIBuilder.java""","""TestURIBuilder::testMalformedPath()""",296,300,-1,-1

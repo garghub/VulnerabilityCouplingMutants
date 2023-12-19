@@ -1,0 +1,5 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old,line_num,mod_type,mod
+"""esigate-core/src/main/java/org/esigate/xml/XsltRenderer.java""","""""",-1,-1,-1,-1,31,"""added""","""import javax.xml.XMLConstants;"""
+"""esigate-core/src/main/java/org/esigate/xml/XsltRenderer.java""","""""",-1,-1,-1,-1,48,"""added""",""""""
+"""esigate-core/src/main/java/org/esigate/xml/XsltRenderer.java""","""XsltRenderer::createTransformer( InputStream templateStream)""",91,101,89,97,93,"""added""","""            // Ensure XSLT cannot use advanced extensions during processing."""
+"""esigate-core/src/main/java/org/esigate/xml/XsltRenderer.java""","""XsltRenderer::createTransformer( InputStream templateStream)""",91,101,89,97,94,"""added""","""            TRANSFORMER_FACTORY.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);"""

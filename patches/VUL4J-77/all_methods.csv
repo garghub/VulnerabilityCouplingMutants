@@ -1,0 +1,6 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""modules/swagger-parser/src/main/java/io/swagger/parser/util/DeserializationUtils.java""","""DeserializationUtils::deserializeIntoTree( String contents , String fileOrHost)""",14,28,13,27
+"""modules/swagger-parser/src/main/java/io/swagger/parser/util/DeserializationUtils.java""","""DeserializationUtils::deserialize( Object contents , String fileOrHost , Class<T> expectedType)""",30,54,29,53
+"""modules/swagger-parser/src/main/java/io/swagger/parser/util/DeserializationUtils.java""","""DeserializationUtils::isJson( String contents)""",56,58,55,57
+"""modules/swagger-parser/src/main/java/io/swagger/parser/util/DeserializationUtils.java""","""DeserializationUtils::readYamlTree( String contents)""",60,63,59,62
+"""modules/swagger-parser/src/main/java/io/swagger/parser/util/DeserializationUtils.java""","""DeserializationUtils::readYamlValue( String contents , Class<T> expectedType)""",65,68,64,67

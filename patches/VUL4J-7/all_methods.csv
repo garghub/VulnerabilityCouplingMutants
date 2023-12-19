@@ -1,0 +1,85 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::ZipArchiveInputStream( final InputStream inputStream)""",174,176,174,176
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::ZipArchiveInputStream( final InputStream inputStream , final String encoding)""",185,187,185,187
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::ZipArchiveInputStream( final InputStream inputStream , final String encoding , final boolean useUnicodeExtraFields)""",197,199,197,199
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::ZipArchiveInputStream( final InputStream inputStream , final String encoding , final boolean useUnicodeExtraFields , final boolean allowStoredEntriesWithDataDescriptor)""",212,224,212,224
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::getNextZipEntry()""",226,360,226,360
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::readFirstLocalFileHeader( final byte [ ] lfh)""",367,382,367,382
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::processZip64Extra( final ZipLong size , final ZipLong cSize)""",389,404,389,404
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::getNextEntry()""",407,409,407,409
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::canReadEntryData( final ArchiveEntry ae)""",419,427,419,427
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::read( final byte [ ] buffer , final int offset , final int length)""",430,475,430,475
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::getCompressedCount()""",481,497,481,497
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::getUncompressedCount()""",503,505,503,505
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::readStored( final byte [ ] buffer , final int offset , final int length)""",510,545,510,544
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::readDeflated( final byte [ ] buffer , final int offset , final int length)""",550,564,549,563
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::readFromInflater( final byte [ ] buffer , final int offset , final int length)""",570,590,569,589
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::close()""",593,602,592,601
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::skip( final long value)""",620,634,619,633
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::matches( final byte [ ] signature , final int length)""",645,654,644,653
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::checksig( final byte [ ] signature , final byte [ ] expected)""",656,663,655,662
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::closeEntry()""",683,725,682,724
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::currentEntryHasOutstandingBytes()""",734,737,733,736
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::drainCurrentEntryData()""",743,754,742,753
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::getBytesInflated()""",771,779,770,778
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::fill()""",781,792,780,791
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::readFully( final byte [ ] b)""",794,796,793,795
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::readFully( final byte [ ] b , final int off)""",798,805,797,804
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::readDataDescriptor()""",807,838,806,837
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::supportsDataDescriptorFor( final ZipArchiveEntry entry)""",847,853,846,852
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::supportsCompressedSizeFor( final ZipArchiveEntry entry)""",859,866,858,865
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::readStoredEntry()""",885,914,884,913
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::bufferContainsSignature( final ByteArrayOutputStream bos , final int offset , final int lastRead , final int expectedDDLen)""",928,958,927,957
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::cacheBytesRead( final ByteArrayOutputStream bos , int offset , final int lastRead , final int expecteDDLen)""",969,979,968,978
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::pushback( final byte [ ] buf , final int offset , final int length)""",981,984,980,983
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::skipRemainderOfArchive()""",1007,1017,1006,1016
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::findEocdRecord()""",1023,1054,1022,1053
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::realSkip( final long value)""",1063,1078,1062,1077
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::readOneByte()""",1086,1092,1085,1091
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::isFirstByteOfEocdSig( final int b)""",1094,1096,1093,1095
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::isApkSigningBlock( byte [ ] suspectLocalFileHeader)""",1117,1152,1116,1151
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::BoundedInputStream::BoundedInputStream( final InputStream in , final long size)""",1222,1225,1221,1224
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::BoundedInputStream::read()""",1228,1237,1227,1236
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::BoundedInputStream::read( final byte [ ] b)""",1240,1242,1239,1241
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::BoundedInputStream::read( final byte [ ] b , final int off , final int len)""",1245,1260,1244,1259
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::BoundedInputStream::skip( final long n)""",1263,1268,1262,1267
+"""src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java""","""ZipArchiveInputStream::BoundedInputStream::available()""",1271,1276,1270,1275
+"""src/test/java/org/apache/commons/compress/archivers/zip/Maven221MultiVolumeTest.java""","""Maven221MultiVolumeTest::testRead7ZipMultiVolumeArchiveForStream()""",69,120,69,113
+"""src/test/java/org/apache/commons/compress/archivers/zip/Maven221MultiVolumeTest.java""","""Maven221MultiVolumeTest::testRead7ZipMultiVolumeArchiveForFile()""",123,127,116,120
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::winzipBackSlashWorkaround()""",49,62,49,62
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::properUseOfInflater()""",68,89,68,89
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::shouldConsumeArchiveCompletely()""",92,106,92,106
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::shouldReadNestedZip()""",112,122,112,122
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::extractZipInputStream( final ZipArchiveInputStream in)""",124,133,124,133
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::testUnshrinkEntry()""",136,160,136,160
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::testReadingOfFirstStoredEntry()""",169,177,169,177
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::testMessageWithCorruptFileName()""",185,196,185,196
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::testUnzipBZip2CompressedEntry()""",199,208,199,208
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::readDeflate64CompressedStream()""",214,224,214,224
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::readDeflate64CompressedStreamWithDataDescriptor()""",227,243,227,243
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::testWithBytesAfterData()""",251,269,251,269
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::testThrowOnInvalidEntry()""",276,289,276,289
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::testOffsets()""",295,310,295,310
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::nameSourceDefaultsToName()""",313,315,313,315
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::nameSourceIsSetToUnicodeExtraField()""",318,321,318,321
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::nameSourceIsSetToEFS()""",324,327,324,327
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::properlyMarksEntriesAsUnreadableIfUncompressedSizeIsUnknown()""",330,341,330,341
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::singleByteReadConsistentlyReturnsMinusOneAtEofUsingDeflate()""",344,346,344,346
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::singleByteReadConsistentlyReturnsMinusOneAtEofUsingStore()""",349,351,349,351
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::singleByteReadConsistentlyReturnsMinusOneAtEofUsingUnshrink()""",354,356,354,356
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::singleByteReadConsistentlyReturnsMinusOneAtEofUsingExplode()""",359,361,359,361
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::singleByteReadConsistentlyReturnsMinusOneAtEofUsingDeflate64()""",364,366,364,366
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::singleByteReadConsistentlyReturnsMinusOneAtEofUsingBzip2()""",369,371,369,371
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::singleByteReadConsistentlyReturnsMinusOneAtEof( File file)""",373,381,373,381
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::multiByteReadConsistentlyReturnsMinusOneAtEofUsingDeflate()""",384,386,384,386
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::multiByteReadConsistentlyReturnsMinusOneAtEofUsingStore()""",389,391,389,391
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::multiByteReadConsistentlyReturnsMinusOneAtEofUsingUnshrink()""",394,396,394,396
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::multiByteReadConsistentlyReturnsMinusOneAtEofUsingExplode()""",399,401,399,401
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::multiByteReadConsistentlyReturnsMinusOneAtEofUsingDeflate64()""",404,406,404,406
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::multiByteReadConsistentlyReturnsMinusOneAtEofUsingBzip2()""",409,411,409,411
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::multiByteReadConsistentlyReturnsMinusOneAtEof( File file)""",413,422,413,422
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::singleByteReadThrowsAtEofForCorruptedStoredEntry()""",425,456,-1,-1
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::multiByteReadThrowsAtEofForCorruptedStoredEntry()""",459,491,-1,-1
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::readEntry( ZipArchiveInputStream zip , ZipArchiveEntry zae)""",493,499,424,430
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::nameSource( String archive , String entry , ZipArchiveEntry . NameSource expected)""",501,503,432,434
+"""src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java""","""ZipArchiveInputStreamTest::nameSource( String archive , String entry , int entryNo , ZipArchiveEntry . NameSource expected)""",505,515,436,446

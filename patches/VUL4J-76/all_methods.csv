@@ -1,0 +1,178 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""retrofit/src/main/java/retrofit2/RequestBuilder.java""","""RequestBuilder::RequestBuilder( String method , HttpUrl baseUrl , @ Nullable String relativeUrl , @ Nullable Headers headers , @ Nullable MediaType contentType , boolean hasBody , boolean isFormEncoded , boolean isMultipart)""",65,87,49,71
+"""retrofit/src/main/java/retrofit2/RequestBuilder.java""","""RequestBuilder::setRelativeUrl( Object relativeUrl)""",89,91,73,75
+"""retrofit/src/main/java/retrofit2/RequestBuilder.java""","""RequestBuilder::addHeader( String name , String value)""",93,103,77,87
+"""retrofit/src/main/java/retrofit2/RequestBuilder.java""","""RequestBuilder::addPathParam( String name , String value , boolean encoded)""",105,117,89,95
+"""retrofit/src/main/java/retrofit2/RequestBuilder.java""","""RequestBuilder::canonicalizeForPath( String input , boolean alreadyEncoded)""",119,136,97,114
+"""retrofit/src/main/java/retrofit2/RequestBuilder.java""","""RequestBuilder::canonicalizeForPath( Buffer out , String input , int pos , int limit , boolean alreadyEncoded)""",138,166,116,144
+"""retrofit/src/main/java/retrofit2/RequestBuilder.java""","""RequestBuilder::addQueryParam( String name , @ Nullable String value , boolean encoded)""",168,186,146,164
+"""retrofit/src/main/java/retrofit2/RequestBuilder.java""","""RequestBuilder::addFormField( String name , String value , boolean encoded)""",189,195,167,173
+"""retrofit/src/main/java/retrofit2/RequestBuilder.java""","""RequestBuilder::addPart( Headers headers , RequestBody body)""",198,200,176,178
+"""retrofit/src/main/java/retrofit2/RequestBuilder.java""","""RequestBuilder::addPart( MultipartBody . Part part)""",203,205,181,183
+"""retrofit/src/main/java/retrofit2/RequestBuilder.java""","""RequestBuilder::setBody( RequestBody body)""",207,209,185,187
+"""retrofit/src/main/java/retrofit2/RequestBuilder.java""","""RequestBuilder::get()""",211,251,189,229
+"""retrofit/src/main/java/retrofit2/RequestBuilder.java""","""RequestBuilder::ContentTypeOverridingRequestBody::ContentTypeOverridingRequestBody( RequestBody delegate , MediaType contentType)""",257,260,235,238
+"""retrofit/src/main/java/retrofit2/RequestBuilder.java""","""RequestBuilder::ContentTypeOverridingRequestBody::contentType()""",262,264,240,242
+"""retrofit/src/main/java/retrofit2/RequestBuilder.java""","""RequestBuilder::ContentTypeOverridingRequestBody::contentLength()""",266,268,244,246
+"""retrofit/src/main/java/retrofit2/RequestBuilder.java""","""RequestBuilder::ContentTypeOverridingRequestBody::writeTo( BufferedSink sink)""",270,272,248,250
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::customMethodNoBody()""",70,82,70,82
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::customMethodWithBody()""",84,97,84,97
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::onlyOneEncodingIsAllowedMultipartFirst()""",99,115,99,115
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::onlyOneEncodingIsAllowedFormEncodingFirst()""",117,133,117,133
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::invalidPathParam()""",135,151,135,151
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::pathParamNotAllowedInQuery()""",153,168,153,168
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipleParameterAnnotationsNotAllowed()""",170,184,170,184
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipleParameterAnnotationsOnlyOneRetrofitAllowed()""",188,197,188,197
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::twoMethodsFail()""",199,216,199,216
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::lackingMethod()""",218,231,218,231
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::implicitMultipartForbidden()""",233,247,233,247
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::implicitMultipartWithPartMapForbidden()""",249,263,249,263
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartFailsOnNonBodyMethod()""",265,280,265,280
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartFailsWithNoParts()""",282,297,282,297
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::implicitFormEncodingByFieldForbidden()""",299,313,299,313
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::implicitFormEncodingByFieldMapForbidden()""",315,329,315,329
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::formEncodingFailsOnNonBodyMethod()""",331,346,331,346
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::formEncodingFailsWithNoParts()""",348,362,348,362
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::headersFailWhenEmptyOnMethod()""",364,378,364,378
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::headersFailWhenMalformed()""",380,395,380,395
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::pathParamNonPathParamAndTypedBytes()""",397,411,397,411
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::parameterWithoutAnnotation()""",413,427,413,427
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::nonBodyHttpMethodWithSingleEntity()""",429,443,429,443
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::queryMapMustBeAMap()""",445,459,445,459
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::queryMapSupportsSubclasses()""",461,477,461,477
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::queryMapRejectsNull()""",479,493,479,493
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::queryMapRejectsNullKeys()""",495,513,495,513
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::queryMapRejectsNullValues()""",515,533,515,533
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithHeaderMap()""",535,554,535,554
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::headerMapMustBeAMap()""",556,570,556,570
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::headerMapSupportsSubclasses()""",572,590,572,590
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::headerMapRejectsNull()""",592,606,592,606
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::headerMapRejectsNullKeys()""",608,626,608,626
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::headerMapRejectsNullValues()""",628,646,628,646
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::twoBodies()""",648,662,648,662
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::bodyInNonBodyRequest()""",664,679,664,679
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::get()""",681,693,681,693
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::delete()""",695,707,695,707
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::head()""",709,721,709,721
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::headWithoutVoidThrows()""",723,736,723,736
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::post()""",738,751,738,751
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::put()""",753,766,753,766
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::patch()""",768,781,768,781
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::options()""",783,795,783,795
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithPathParam()""",797,809,797,809
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithUnusedAndInvalidNamedPathParam()""",811,823,811,823
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithEncodedPathParam()""",825,837,825,837
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithEncodedPathSegments()""",839,851,839,851
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithUnencodedPathSegmentsPreventsRequestSplitting()""",853,865,853,865
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithEncodedPathStillPreventsRequestSplitting()""",867,879,867,879
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::pathParametersAndPathTraversal()""",881,907,-1,-1
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::encodedPathParametersAndPathTraversal()""",909,946,-1,-1
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::dotDotsOkayWhenNotFullPathSegment()""",948,961,-1,-1
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::pathParamRequired()""",963,976,881,894
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithQueryParam()""",978,990,896,908
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithEncodedQueryParam()""",992,1004,910,922
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::queryParamOptionalOmitsQuery()""",1006,1015,924,933
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::queryParamOptional()""",1017,1027,935,945
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithQueryUrlAndParam()""",1029,1041,947,959
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithQuery()""",1043,1055,961,973
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithPathAndQueryParam()""",1057,1071,975,989
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithQueryThenPathThrows()""",1073,1088,991,1006
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithQueryNameThenPathThrows()""",1090,1105,1008,1023
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithQueryMapThenPathThrows()""",1107,1122,1025,1040
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithPathAndQueryQuestionMarkParam()""",1124,1138,1042,1056
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithPathAndQueryAmpersandParam()""",1140,1153,1058,1071
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithPathAndQueryHashParam()""",1155,1168,1073,1086
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithQueryParamList()""",1170,1184,1088,1102
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithQueryParamArray()""",1186,1200,1104,1118
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithQueryParamPrimitiveArray()""",1202,1216,1120,1134
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithQueryNameParam()""",1218,1230,1136,1148
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithEncodedQueryNameParam()""",1232,1244,1150,1162
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::queryNameParamOptionalOmitsQuery()""",1246,1255,1164,1173
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithQueryNameParamList()""",1257,1271,1175,1189
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithQueryNameParamArray()""",1273,1287,1191,1205
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithQueryNameParamPrimitiveArray()""",1289,1303,1207,1221
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithQueryParamMap()""",1305,1322,1223,1240
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithEncodedQueryParamMap()""",1324,1341,1242,1259
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getAbsoluteUrl()""",1343,1356,1261,1274
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithStringUrl()""",1358,1371,1276,1289
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithJavaUriUrl()""",1373,1386,1291,1304
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithStringUrlAbsolute()""",1388,1401,1306,1319
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithJavaUriUrlAbsolute()""",1403,1416,1321,1334
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithUrlAbsoluteSameHost()""",1418,1431,1336,1349
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithHttpUrl()""",1433,1446,1351,1364
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithNullUrl()""",1448,1462,1366,1380
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithNonStringUrlThrows()""",1464,1481,1382,1399
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getUrlAndUrlParamThrows()""",1483,1498,1401,1416
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithoutUrlThrows()""",1500,1515,1418,1433
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithUrlThenPathThrows()""",1517,1532,1435,1450
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithPathThenUrlThrows()""",1534,1549,1452,1467
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithQueryThenUrlThrows()""",1551,1566,1469,1484
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithQueryNameThenUrlThrows()""",1568,1583,1486,1501
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithQueryMapThenUrlThrows()""",1585,1600,1503,1518
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::getWithUrlThenQuery()""",1602,1614,1520,1532
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::postWithUrl()""",1616,1629,1534,1547
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::normalPostWithPathParam()""",1631,1644,1549,1562
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::emptyBody()""",1646,1658,1564,1576
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::customMethodEmptyBody()""",1660,1672,1578,1590
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::bodyRequired()""",1674,1687,1592,1605
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::bodyWithPathParams()""",1689,1702,1607,1620
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::simpleMultipart()""",1704,1733,1622,1651
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartArray()""",1735,1764,1653,1682
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartRequiresName()""",1766,1783,1684,1701
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartIterableRequiresName()""",1785,1802,1703,1720
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartArrayRequiresName()""",1804,1821,1722,1739
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartOkHttpPartForbidsName()""",1823,1840,1741,1758
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartOkHttpPart()""",1842,1866,1760,1784
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartOkHttpIterablePart()""",1868,1898,1786,1816
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartOkHttpArrayPart()""",1900,1931,1818,1849
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartOkHttpPartWithFilename()""",1933,1958,1851,1876
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartIterable()""",1960,1988,1878,1906
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartIterableOkHttpPart()""",1990,2007,1908,1925
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartArrayOkHttpPart()""",2009,2026,1927,1944
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartWithEncoding()""",2028,2060,1946,1978
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartPartMap()""",2062,2094,1980,2012
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartPartMapWithEncoding()""",2096,2130,2014,2048
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartPartMapRejectsNonStringKeys()""",2132,2149,2050,2067
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartPartMapRejectsOkHttpPartValues()""",2151,2168,2069,2086
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartPartMapRejectsNull()""",2170,2185,2088,2103
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartPartMapRejectsNullKeys()""",2187,2206,2105,2124
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartPartMapRejectsNullValues()""",2208,2227,2126,2145
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartPartMapMustBeMap()""",2229,2245,2147,2163
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartPartMapSupportsSubclasses()""",2247,2268,2165,2186
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartNullRemovesPart()""",2270,2292,2188,2210
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartPartOptional()""",2294,2308,2212,2226
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::simpleFormEncoded()""",2310,2320,2228,2238
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::formEncodedWithEncodedNameFieldParam()""",2322,2332,2240,2250
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::formEncodedFieldOptional()""",2334,2345,2252,2263
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::formEncodedFieldList()""",2347,2359,2265,2277
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::formEncodedFieldArray()""",2361,2373,2279,2291
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::formEncodedFieldPrimitiveArray()""",2375,2387,2293,2305
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::formEncodedWithEncodedNameFieldParamMap()""",2389,2404,2307,2322
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::formEncodedFieldMap()""",2406,2421,2324,2339
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::fieldMapRejectsNull()""",2423,2438,2341,2356
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::fieldMapRejectsNullKeys()""",2440,2459,2358,2377
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::fieldMapRejectsNullValues()""",2461,2480,2379,2398
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::fieldMapMustBeAMap()""",2482,2497,2400,2415
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::fieldMapSupportsSubclasses()""",2499,2518,2417,2436
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::simpleHeaders()""",2520,2539,2438,2457
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::headersDoNotOverwriteEachOther()""",2541,2561,2459,2479
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::headerParamToString()""",2563,2577,2481,2495
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::headerParam()""",2579,2595,2497,2513
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::headerParamList()""",2597,2611,2515,2529
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::headerParamArray()""",2613,2627,2531,2545
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::contentTypeAnnotationHeaderOverrides()""",2629,2640,2547,2558
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::malformedContentTypeHeaderThrows()""",2642,2659,2560,2577
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::contentTypeAnnotationHeaderAddsHeaderWithNoBody()""",2661,2671,2579,2589
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::contentTypeParameterHeaderOverrides()""",2673,2683,2591,2601
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::malformedContentTypeParameterThrows()""",2685,2700,2603,2618
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::malformedAnnotationRelativeUrlThrows()""",2702,2716,2620,2634
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::malformedParameterRelativeUrlThrows()""",2718,2732,2636,2650
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::multipartPartsShouldBeInOrder()""",2734,2751,2652,2669
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::queryParamsSkippedIfConvertedToNull()""",2753,2767,2671,2685
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::queryParamMapsConvertedToNullShouldError()""",2769,2789,2687,2707
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::fieldParamsSkippedIfConvertedToNull()""",2791,2806,2709,2724
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::fieldParamMapsConvertedToNullShouldError()""",2808,2829,2726,2747
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::assertBody( RequestBody body , String expected)""",2831,2840,2749,2758
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::buildRequest( Class<T> cls , Retrofit . Builder builder , Object ... args)""",2842,2859,2760,2777
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::buildRequest( Class<T> cls , Object ... args)""",2861,2867,2779,2785
+"""retrofit/src/test/java/retrofit2/RequestFactoryTest.java""","""RequestFactoryTest::assertMalformedRequest( Class <?> cls , Object ... args)""",2869,2875,-1,-1

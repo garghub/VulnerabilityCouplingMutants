@@ -1,0 +1,30 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""src/main/java/org/primeframework/jwt/JWTDecoder.java""","""JWTDecoder::getInstance()""",42,48,41,47
+"""src/main/java/org/primeframework/jwt/JWTDecoder.java""","""JWTDecoder::decode( String encodedJWT , Verifier ... verifiers)""",61,87,60,82
+"""src/main/java/org/primeframework/jwt/JWTDecoder.java""","""JWTDecoder::decode( String encodedJWT , Map<String,Verifier> verifiers)""",100,102,95,97
+"""src/main/java/org/primeframework/jwt/JWTDecoder.java""","""JWTDecoder::decode( String encodedJWT , Map<String,Verifier> verifiers , Function<Header,String> keyFunction)""",117,142,112,133
+"""src/main/java/org/primeframework/jwt/JWTDecoder.java""","""JWTDecoder::base64Decode( byte [ ] bytes)""",144,150,135,141
+"""src/main/java/org/primeframework/jwt/JWTDecoder.java""","""JWTDecoder::decode( String encodedJWT , Header header , String [ ] parts , Verifier verifier)""",152,186,143,172
+"""src/main/java/org/primeframework/jwt/JWTDecoder.java""","""JWTDecoder::getParts( String encodedJWT)""",188,196,174,182
+"""src/test/java/org/primeframework/jwt/JWTTest.java""","""JWTTest::decoding_performance()""",72,109,71,108
+"""src/test/java/org/primeframework/jwt/JWTTest.java""","""JWTTest::encoding_performance()""",112,138,111,137
+"""src/test/java/org/primeframework/jwt/JWTTest.java""","""JWTTest::expired()""",141,153,140,152
+"""src/test/java/org/primeframework/jwt/JWTTest.java""","""JWTTest::test_HS256()""",156,161,155,160
+"""src/test/java/org/primeframework/jwt/JWTTest.java""","""JWTTest::test_HS256_manualAddedClaim()""",164,169,163,168
+"""src/test/java/org/primeframework/jwt/JWTTest.java""","""JWTTest::test_HS384()""",172,180,171,179
+"""src/test/java/org/primeframework/jwt/JWTTest.java""","""JWTTest::test_HS512()""",183,188,182,187
+"""src/test/java/org/primeframework/jwt/JWTTest.java""","""JWTTest::test_RS256()""",191,196,190,195
+"""src/test/java/org/primeframework/jwt/JWTTest.java""","""JWTTest::test_RS384()""",199,207,206,214
+"""src/test/java/org/primeframework/jwt/JWTTest.java""","""JWTTest::test_RS512()""",210,215,217,222
+"""src/test/java/org/primeframework/jwt/JWTTest.java""","""JWTTest::test_RSA_1024Key()""",218,223,225,230
+"""src/test/java/org/primeframework/jwt/JWTTest.java""","""JWTTest::test_SingedWithoutSignature()""",226,239,-1,-1
+"""src/test/java/org/primeframework/jwt/JWTTest.java""","""JWTTest::test_badEncoding()""",242,247,198,203
+"""src/test/java/org/primeframework/jwt/JWTTest.java""","""JWTTest::test_complexPayload()""",250,298,233,281
+"""src/test/java/org/primeframework/jwt/JWTTest.java""","""JWTTest::test_encodedJwtWithSignatureRemoved()""",301,310,284,293
+"""src/test/java/org/primeframework/jwt/JWTTest.java""","""JWTTest::test_expiredThrows()""",313,324,296,307
+"""src/test/java/org/primeframework/jwt/JWTTest.java""","""JWTTest::test_multipleSignersAndVerifiers()""",327,356,310,339
+"""src/test/java/org/primeframework/jwt/JWTTest.java""","""JWTTest::test_noVerification()""",359,366,342,349
+"""src/test/java/org/primeframework/jwt/JWTTest.java""","""JWTTest::test_none()""",369,378,352,361
+"""src/test/java/org/primeframework/jwt/JWTTest.java""","""JWTTest::test_notBeforeThrows()""",381,395,364,378
+"""src/test/java/org/primeframework/jwt/JWTTest.java""","""JWTTest::test_zonedDateTime()""",398,409,381,392
+"""src/test/java/org/primeframework/jwt/JWTTest.java""","""JWTTest::expectException( Class <? extends Exception> expected , ThrowingRunnable runnable)""",411,420,394,403

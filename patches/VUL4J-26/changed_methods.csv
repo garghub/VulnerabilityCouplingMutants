@@ -1,0 +1,4 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old,line_num,mod_type,mod
+"""core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.java""","""URLValidator::getUrlRegex()""",69,90,69,90,84,"""deleted""","""                    "")(((\\/+([a-z0-9$_\\.\\+!\\*\\'\\(\\),;:@&=-]|%[0-9a-f]{2})*)*"" +"""
+"""core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.java""","""URLValidator::getUrlRegex()""",69,90,69,90,84,"""added""","""                    "")(((\\/{0,1}([a-z0-9$_\\.\\+!\\*\\'\\(\\),;:@&=-]|%[0-9a-f]{2})*)*"" +"""
+"""core/src/test/java/com/opensymphony/xwork2/validator/URLValidatorTest.java""","""URLValidatorTest::testValidUrlWithDefaultRegex()""",131,147,131,146,141,"""added""","""		assertFalse(pattern.matcher(""http://example.com////////////////////////////////////////////////////////////////////////////////////??"").matches());"""

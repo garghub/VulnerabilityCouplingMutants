@@ -1,0 +1,12 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java""","""NioZipEncoding::NioZipEncoding( final Charset charset , boolean useReplacement)""",54,57,54,57
+"""src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java""","""NioZipEncoding::getCharset()""",60,62,60,62
+"""src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java""","""NioZipEncoding::canEncode( final String name)""",68,72,68,72
+"""src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java""","""NioZipEncoding::encode( final String name)""",78,127,78,124
+"""src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java""","""NioZipEncoding::decode( final byte [ ] data)""",134,137,131,134
+"""src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java""","""NioZipEncoding::encodeFully( CharsetEncoder enc , CharBuffer cb , ByteBuffer out)""",139,149,136,146
+"""src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java""","""NioZipEncoding::encodeSurrogate( CharBuffer cb , char c)""",151,162,148,159
+"""src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java""","""NioZipEncoding::newEncoder()""",164,175,161,172
+"""src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java""","""NioZipEncoding::newDecoder()""",177,188,174,185
+"""src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java""","""NioZipEncoding::estimateInitialBufferSize( CharsetEncoder enc , int charChount)""",202,206,199,203
+"""src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java""","""NioZipEncoding::estimateIncrementalEncodingSize( CharsetEncoder enc , int charCount)""",215,217,212,214

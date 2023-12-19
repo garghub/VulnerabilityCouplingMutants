@@ -1,0 +1,54 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::XmlFactory()""",84,84,84,84
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::XmlFactory( ObjectCodec oc)""",86,88,86,88
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::XmlFactory( XMLInputFactory xmlIn)""",90,92,90,92
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::XmlFactory( XMLInputFactory xmlIn , XMLOutputFactory xmlOut)""",94,96,94,96
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::XmlFactory( ObjectCodec oc , XMLInputFactory xmlIn , XMLOutputFactory xmlOut)""",98,102,98,102
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::XmlFactory( ObjectCodec oc , int xpFeatures , int xgFeatures , XMLInputFactory xmlIn , XMLOutputFactory xmlOut , String nameForTextElem)""",104,125,104,123
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::XmlFactory( XmlFactory src , ObjectCodec oc)""",130,138,128,136
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::_initFactories( XMLInputFactory xmlIn , XMLOutputFactory xmlOut)""",140,146,138,144
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::copy()""",156,159,154,157
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::version()""",162,164,160,162
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::readResolve()""",187,206,185,204
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::readObject( ObjectInputStream in)""",212,218,210,216
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::writeObject( ObjectOutputStream out)""",224,228,222,226
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::setXMLTextElementName( String name)""",239,241,237,239
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::getXMLTextElementName()""",246,248,244,246
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::configure( FromXmlParser . Feature f , boolean state)""",259,267,257,265
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::enable( FromXmlParser . Feature f)""",272,275,270,273
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::disable( FromXmlParser . Feature f)""",280,283,278,281
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::isEnabled( FromXmlParser . Feature f)""",288,290,286,288
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::configure( ToXmlGenerator . Feature f , boolean state)""",301,308,299,306
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::enable( ToXmlGenerator . Feature f)""",313,316,311,314
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::disable( ToXmlGenerator . Feature f)""",321,324,319,322
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::isEnabled( ToXmlGenerator . Feature f)""",329,331,327,329
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::getXMLInputFactory()""",340,342,338,340
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::setXMLInputFactory( XMLInputFactory f)""",344,346,342,344
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::getXMLOutputFactory()""",349,351,347,349
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::setXMLOutputFactory( XMLOutputFactory f)""",353,355,351,353
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::getFormatName()""",371,373,369,371
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::hasFormat( InputAccessor acc)""",376,378,374,376
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::requiresCustomCodec()""",387,387,385,385
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::canUseCharArrays()""",402,402,400,400
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::getFormatReadFeatureType()""",405,407,403,405
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::getFormatWriteFeatureType()""",410,412,408,410
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::createParser( String content)""",427,434,425,432
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::createGenerator( OutputStream out)""",443,445,441,443
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::createGenerator( OutputStream out , JsonEncoding enc)""",448,456,446,454
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::createGenerator( Writer out)""",459,464,457,462
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::createGenerator( File f , JsonEncoding enc)""",468,476,466,474
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::createParser( XMLStreamReader sr)""",490,508,488,506
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::createGenerator( XMLStreamWriter sw)""",517,527,515,525
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::_createParser( InputStream in , IOContext ctxt)""",536,551,534,549
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::_createParser( Reader r , IOContext ctxt)""",554,569,552,567
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::_createParser( char [ ] data , int offset , int len , IOContext ctxt , boolean recycleBuffer)""",572,590,570,588
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::_createParser( byte [ ] data , int offset , int len , IOContext ctxt)""",593,608,591,606
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::_createGenerator( Writer out , IOContext ctxt)""",611,615,609,613
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::_createXmlWriter( OutputStream out)""",623,630,621,628
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::_createXmlWriter( Writer w)""",632,639,630,637
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::_initializeXmlWriter( XMLStreamWriter sw)""",641,647,639,645
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::_initializeXmlReader( XMLStreamReader sr)""",649,656,647,654
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::hasXMLFormat( InputAccessor acc)""",686,774,684,772
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::validXmlNameStartChar( InputAccessor acc , byte b)""",776,788,774,786
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::tryMatch( InputAccessor acc , String matchStr , MatchStrength fullMatchStrength)""",790,802,788,800
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::skipSpace( InputAccessor acc , byte b)""",804,817,802,815

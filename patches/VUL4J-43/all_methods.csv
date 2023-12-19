@@ -1,0 +1,5 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""util/src/main/java/org/eclipse/rdf4j/common/io/ZipUtil.java""","""ZipUtil::isZipStream( InputStream in)""",36,41,29,36
+"""util/src/main/java/org/eclipse/rdf4j/common/io/ZipUtil.java""","""ZipUtil::extract( File zipFile , File destDir)""",53,57,48,54
+"""util/src/main/java/org/eclipse/rdf4j/common/io/ZipUtil.java""","""ZipUtil::extract( ZipFile zipFile , File destDir)""",69,77,66,76
+"""util/src/main/java/org/eclipse/rdf4j/common/io/ZipUtil.java""","""ZipUtil::writeEntry( ZipFile zipFile , ZipEntry entry , File destDir)""",91,107,90,105

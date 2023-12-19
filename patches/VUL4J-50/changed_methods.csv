@@ -1,0 +1,3 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old,line_num,mod_type,mod
+"""javamelody-core/src/main/java/net/bull/javamelody/HtmlSessionInformationsReport.java""","""HtmlSessionInformationsReport::writeSession( SessionInformations session , boolean displayUser)""",131,184,131,184,162,"""deleted""","""			write(remoteAddr);"""
+"""javamelody-core/src/main/java/net/bull/javamelody/HtmlSessionInformationsReport.java""","""HtmlSessionInformationsReport::writeSession( SessionInformations session , boolean displayUser)""",131,184,131,184,162,"""added""","""			write(htmlEncodeButNotSpace(remoteAddr));"""

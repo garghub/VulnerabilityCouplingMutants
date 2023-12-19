@@ -1,0 +1,34 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::getPathWithinApplication( HttpServletRequest request)""",110,121,110,121
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::getRequestUri( HttpServletRequest request)""",135,141,135,141
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::normalize( String path)""",154,156,154,156
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::normalize( String path , boolean replaceBackSlash)""",170,221,170,221
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::decodeAndCleanUriString( HttpServletRequest request , String uri)""",231,235,231,235
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::getContextPath( HttpServletRequest request)""",246,257,246,256
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::getRequiredWebEnvironment( ServletContext sc)""",272,280,271,279
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::getWebEnvironment( ServletContext sc)""",294,296,293,295
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::getWebEnvironment( ServletContext sc , String attrName)""",306,327,305,326
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::decodeRequestString( HttpServletRequest request , String source)""",344,355,343,354
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::determineEncoding( HttpServletRequest request)""",368,374,367,373
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::isWeb( Object requestPairSource)""",390,392,389,391
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::isHttp( Object requestPairSource)""",394,396,393,395
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::getRequest( Object requestPairSource)""",398,403,397,402
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::getResponse( Object requestPairSource)""",405,410,404,409
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::getHttpRequest( Object requestPairSource)""",412,418,411,417
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::getHttpResponse( Object requestPairSource)""",420,426,419,425
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::isWeb( RequestPairSource source)""",428,432,427,431
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::isHttp( RequestPairSource source)""",434,438,433,437
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::_isSessionCreationEnabled( Object requestPairSource)""",452,458,451,457
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::_isSessionCreationEnabled( ServletRequest request)""",471,479,470,478
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::toHttp( ServletRequest request)""",493,495,492,494
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::toHttp( ServletResponse response)""",509,511,508,510
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::issueRedirect( ServletRequest request , ServletResponse response , String url , Map queryParams , boolean contextRelative , boolean http10Compatible)""",524,527,523,526
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::issueRedirect( ServletRequest request , ServletResponse response , String url)""",538,540,537,539
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::issueRedirect( ServletRequest request , ServletResponse response , String url , Map queryParams)""",552,554,551,553
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::issueRedirect( ServletRequest request , ServletResponse response , String url , Map queryParams , boolean contextRelative)""",567,569,566,568
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::isTrue( ServletRequest request , String paramName)""",581,591,580,590
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::getCleanParam( ServletRequest request , String paramName)""",601,603,600,602
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::saveRequest( ServletRequest request)""",605,611,604,610
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::getAndClearSavedRequest( ServletRequest request)""",613,621,612,620
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::getSavedRequest( ServletRequest request)""",623,631,622,630
+"""web/src/main/java/org/apache/shiro/web/util/WebUtils.java""","""WebUtils::redirectToSavedRequest( ServletRequest request , ServletResponse response , String fallbackUrl)""",652,673,651,672

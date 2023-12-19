@@ -1,0 +1,8 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old,line_num,mod_type,mod
+"""release-notes/VERSION""","""""",-1,-1,-1,-1,7,"""added""","""2.7.4 (not yet released)"""
+"""release-notes/VERSION""","""""",-1,-1,-1,-1,8,"""added""",""""""
+"""release-notes/VERSION""","""""",-1,-1,-1,-1,9,"""added""","""#190: Ensure that defaults for `XMLInputFactory` have expansion of external"""
+"""release-notes/VERSION""","""""",-1,-1,-1,-1,10,"""added""","""    parsed general entities disabled"""
+"""release-notes/VERSION""","""""",-1,-1,-1,-1,11,"""added""",""""""
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::XmlFactory( ObjectCodec oc , int xpFeatures , int xgFeatures , XMLInputFactory xmlIn , XMLOutputFactory xmlOut , String nameForTextElem)""",104,123,104,121,114,"""added""","""            // as per [dataformat-xml#190], disable external entity expansion by default"""
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::XmlFactory( ObjectCodec oc , int xpFeatures , int xgFeatures , XMLInputFactory xmlIn , XMLOutputFactory xmlOut , String nameForTextElem)""",104,123,104,121,115,"""added""","""            xmlIn.setProperty(XMLInputFactory.IS_SUPPORTING_EXTERNAL_ENTITIES, Boolean.FALSE);"""

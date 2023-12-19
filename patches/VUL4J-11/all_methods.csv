@@ -1,0 +1,103 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::isMultipartContent( RequestContext ctx)""",76,85,76,85
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::isMultipartContent( HttpServletRequest req)""",99,101,99,101
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::getSizeMax()""",205,207,205,207
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::setSizeMax( long sizeMax)""",219,221,219,221
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::getFileSizeMax()""",230,232,230,232
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::setFileSizeMax( long fileSizeMax)""",241,243,241,243
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::getHeaderEncoding()""",253,255,253,255
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::setHeaderEncoding( String encoding)""",265,267,265,267
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::parseRequest( HttpServletRequest req)""",286,289,286,289
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::getItemIterator( RequestContext ctx)""",307,315,307,315
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::parseRequest( RequestContext ctx)""",329,374,329,374
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::parseParameterMap( RequestContext ctx)""",389,407,389,407
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::getBoundary( String contentType)""",419,436,419,436
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::getFileName( Map<String,String> headers)""",448,450,448,450
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::getFileName( FileItemHeaders headers)""",460,462,460,462
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::getFileName( String pContentDisposition)""",469,492,469,492
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::getFieldName( FileItemHeaders headers)""",502,504,502,504
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::getFieldName( String pContentDisposition)""",512,526,512,526
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::getFieldName( Map<String,String> headers)""",538,540,538,540
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::createItem( Map<String,String> headers , boolean isFormField)""",557,564,557,564
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::getParsedHeaders( String headerPart)""",578,609,578,609
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::newFileItemHeaders()""",615,617,615,617
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::parseHeaders( String headerPart)""",633,646,633,646
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::parseEndOfLine( String headerPart , int end)""",656,669,656,669
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::parseHeaderLine( FileItemHeadersImpl headers , String header)""",676,686,676,686
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::getHeader( Map<String,String> headers , String name)""",700,703,700,703
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::FileItemIteratorImpl::FileItemStreamImpl::FileItemStreamImpl( String pName , String pFieldName , String pContentType , boolean pFormField , long pContentLength)""",761,799,761,799
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::FileItemIteratorImpl::FileItemStreamImpl::getContentType()""",806,808,806,808
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::FileItemIteratorImpl::FileItemStreamImpl::getFieldName()""",815,817,815,817
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::FileItemIteratorImpl::FileItemStreamImpl::getName()""",828,830,828,830
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::FileItemIteratorImpl::FileItemStreamImpl::isFormField()""",838,840,838,840
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::FileItemIteratorImpl::FileItemStreamImpl::openStream()""",849,858,849,858
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::FileItemIteratorImpl::FileItemStreamImpl::close()""",865,867,865,867
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::FileItemIteratorImpl::FileItemStreamImpl::getHeaders()""",874,876,874,876
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::FileItemIteratorImpl::FileItemStreamImpl::setHeaders( FileItemHeaders pHeaders)""",883,885,883,885
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::FileItemIteratorImpl::FileItemIteratorImpl( RequestContext ctx)""",938,1004,938,999
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::FileItemIteratorImpl::findNextItem()""",1012,1078,1007,1073
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::FileItemIteratorImpl::getContentLength( FileItemHeaders pHeaders)""",1080,1086,1075,1081
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::FileItemIteratorImpl::hasNext()""",1098,1111,1093,1106
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::FileItemIteratorImpl::next()""",1124,1130,1119,1125
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::FileUploadIOException::FileUploadIOException( FileUploadException pCause)""",1158,1161,1153,1156
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::FileUploadIOException::getCause()""",1169,1171,1164,1166
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::InvalidContentTypeException::InvalidContentTypeException()""",1190,1192,1185,1187
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::InvalidContentTypeException::InvalidContentTypeException( String message)""",1200,1202,1195,1197
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::InvalidContentTypeException::InvalidContentTypeException( String msg , Throwable cause)""",1204,1206,-1,-1
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::IOFileUploadException::IOFileUploadException( String pMsg , IOException pException)""",1232,1235,1224,1227
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::IOFileUploadException::getCause()""",1243,1245,1235,1237
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::SizeException::SizeException( String message , long actual , long permitted)""",1277,1281,1269,1273
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::SizeException::getActualSize()""",1289,1291,1281,1283
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::SizeException::getPermittedSize()""",1299,1301,1291,1293
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::UnknownSizeException::UnknownSizeException()""",1326,1328,1318,1320
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::UnknownSizeException::UnknownSizeException( String message)""",1336,1338,1328,1330
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::SizeLimitExceededException::SizeLimitExceededException()""",1358,1360,1350,1352
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::SizeLimitExceededException::SizeLimitExceededException( String message)""",1368,1370,1360,1362
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::SizeLimitExceededException::SizeLimitExceededException( String message , long actual , long permitted)""",1380,1383,1372,1375
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::FileSizeLimitExceededException::FileSizeLimitExceededException( String message , long actual , long permitted)""",1416,1419,1408,1411
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::FileSizeLimitExceededException::getFileName()""",1427,1429,1419,1421
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::FileSizeLimitExceededException::setFileName( String pFileName)""",1437,1439,1429,1431
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::FileSizeLimitExceededException::getFieldName()""",1447,1449,1439,1441
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::FileSizeLimitExceededException::setFieldName( String pFieldName)""",1458,1460,1450,1452
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::getProgressListener()""",1469,1471,1461,1463
+"""src/main/java/org/apache/commons/fileupload/FileUploadBase.java""","""FileUploadBase::setProgressListener( ProgressListener pListener)""",1478,1480,1470,1472
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::ProgressNotifier::ProgressNotifier( ProgressListener pListener , long pContentLength)""",121,124,121,124
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::ProgressNotifier::noteBytesRead( int pBytes)""",131,137,131,137
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::ProgressNotifier::noteItem()""",142,145,142,145
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::ProgressNotifier::notifyListener()""",150,154,150,154
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::MultipartStream()""",275,277,277,279
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::MultipartStream( InputStream input , byte [ ] boundary , int bufSize)""",297,299,301,303
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::MultipartStream( InputStream input , byte [ ] boundary , int bufSize , ProgressNotifier pNotifier)""",318,344,323,344
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::MultipartStream( InputStream input , byte [ ] boundary , ProgressNotifier pNotifier)""",357,361,358,362
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::MultipartStream( InputStream input , byte [ ] boundary)""",374,377,377,380
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::getHeaderEncoding()""",388,390,391,393
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::setHeaderEncoding( String encoding)""",399,401,402,404
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::readByte()""",411,426,414,429
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::readBoundary()""",439,473,442,476
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::setBoundary( byte [ ] boundary)""",494,502,497,505
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::readHeaders()""",520,562,523,565
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::readBodyData( OutputStream output)""",583,587,586,590
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::newInputStream()""",593,595,596,598
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::discardBodyData()""",609,611,612,614
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::skipPreamble()""",621,641,624,644
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::arrayequals( byte [ ] a , byte [ ] b , int count)""",654,663,657,666
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::findByte( byte value , int pos)""",675,684,678,687
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::findSeparator()""",694,715,697,718
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::MalformedStreamException::MalformedStreamException()""",732,734,735,737
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::MalformedStreamException::MalformedStreamException( String message)""",742,744,745,747
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::IllegalBoundaryException::IllegalBoundaryException()""",762,764,765,767
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::IllegalBoundaryException::IllegalBoundaryException( String message)""",772,774,775,777
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::ItemInputStream::ItemInputStream()""",807,809,810,812
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::ItemInputStream::findSeparator()""",814,823,817,826
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::ItemInputStream::getBytesRead()""",831,833,834,836
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::ItemInputStream::available()""",843,848,846,851
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::ItemInputStream::read()""",863,876,866,879
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::ItemInputStream::read( byte [ ] b , int off , int len)""",889,908,892,911
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::ItemInputStream::close()""",916,918,919,921
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::ItemInputStream::close( boolean pCloseUnderlying)""",927,947,930,950
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::ItemInputStream::skip( long bytes)""",958,972,961,975
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::ItemInputStream::makeAvailable()""",980,1014,983,1017
+"""src/main/java/org/apache/commons/fileupload/MultipartStream.java""","""MultipartStream::ItemInputStream::isClosed()""",1021,1023,1024,1026
+"""src/test/java/org/apache/commons/fileupload/MultipartStreamTest.java""","""MultipartStreamTest::testThreeParamConstructor()""",36,49,36,48
+"""src/test/java/org/apache/commons/fileupload/MultipartStreamTest.java""","""MultipartStreamTest::testSmallBuffer()""",52,64,-1,-1
+"""src/test/java/org/apache/commons/fileupload/MultipartStreamTest.java""","""MultipartStreamTest::testTwoParamConstructor()""",67,77,51,61

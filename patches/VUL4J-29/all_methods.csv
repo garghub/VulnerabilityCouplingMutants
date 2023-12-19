@@ -1,0 +1,29 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""core/src/main/java/org/apache/struts2/interceptor/CookieInterceptor.java""","""CookieInterceptor::CookieInterceptor()""",181,185,-1,-1
+"""core/src/main/java/org/apache/struts2/interceptor/CookieInterceptor.java""","""CookieInterceptor::setCookiesName( String cookiesName)""",193,196,186,189
+"""core/src/main/java/org/apache/struts2/interceptor/CookieInterceptor.java""","""CookieInterceptor::setCookiesValue( String cookiesValue)""",205,208,198,201
+"""core/src/main/java/org/apache/struts2/interceptor/CookieInterceptor.java""","""CookieInterceptor::setAcceptCookieNames( String pattern)""",215,217,208,210
+"""core/src/main/java/org/apache/struts2/interceptor/CookieInterceptor.java""","""CookieInterceptor::intercept( ActionInvocation invocation)""",219,254,212,247
+"""core/src/main/java/org/apache/struts2/interceptor/CookieInterceptor.java""","""CookieInterceptor::isAcceptableValue( String value)""",262,273,255,263
+"""core/src/main/java/org/apache/struts2/interceptor/CookieInterceptor.java""","""CookieInterceptor::isAcceptableName( String name)""",281,283,271,273
+"""core/src/main/java/org/apache/struts2/interceptor/CookieInterceptor.java""","""CookieInterceptor::isAccepted( String name)""",291,303,281,293
+"""core/src/main/java/org/apache/struts2/interceptor/CookieInterceptor.java""","""CookieInterceptor::isExcluded( String name)""",311,326,301,313
+"""core/src/main/java/org/apache/struts2/interceptor/CookieInterceptor.java""","""CookieInterceptor::populateCookieValueIntoStack( String cookieName , String cookieValue , Map<String,String> cookiesMap , ValueStack stack)""",337,364,324,351
+"""core/src/main/java/org/apache/struts2/interceptor/CookieInterceptor.java""","""CookieInterceptor::injectIntoCookiesAwareAction( Object action , Map<String,String> cookiesMap)""",373,380,360,367
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::testIntercepDefault()""",44,77,44,77
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::testInterceptAll1()""",79,117,79,117
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::testInterceptAll2()""",120,158,120,158
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::testInterceptSelectedCookiesNameOnly1()""",160,198,160,198
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::testInterceptSelectedCookiesNameOnly2()""",200,238,200,238
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::testInterceptSelectedCookiesNameOnly3()""",240,278,240,278
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::testInterceptSelectedCookiesNameAndValue()""",281,319,281,319
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::testCookiesWithClassPollution()""",321,384,321,384
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::testCookiesWithStrutsInternalsAccess()""",386,437,-1,-1
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::MockActionWithCookieAware::setCookiesMap( Map<String,String> cookies)""",448,450,395,397
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::MockActionWithCookieAware::getCookiesMap()""",452,454,399,401
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::MockActionWithCookieAware::getCookie1()""",456,456,403,403
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::MockActionWithCookieAware::setCookie1( String cookie1)""",457,457,404,404
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::MockActionWithCookieAware::getCookie2()""",459,459,406,406
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::MockActionWithCookieAware::setCookie2( String cookie2)""",460,460,407,407
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::MockActionWithCookieAware::getCookie3()""",462,462,409,409
+"""core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java""","""CookieInterceptorTest::MockActionWithCookieAware::setCookie3( String cookie3)""",463,463,410,410

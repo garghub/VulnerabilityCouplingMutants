@@ -1,0 +1,13 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""src/main/java/org/primeframework/jwt/JWTDecoder.java""","""JWTDecoder::getInstance()""",42,48,42,48
+"""src/main/java/org/primeframework/jwt/JWTDecoder.java""","""JWTDecoder::decode( String encodedJWT , Verifier ... verifiers)""",61,87,61,87
+"""src/main/java/org/primeframework/jwt/JWTDecoder.java""","""JWTDecoder::decode( String encodedJWT , Map<String,Verifier> verifiers)""",100,102,100,102
+"""src/main/java/org/primeframework/jwt/JWTDecoder.java""","""JWTDecoder::decode( String encodedJWT , Map<String,Verifier> verifiers , Function<Header,String> keyFunction)""",117,143,117,143
+"""src/main/java/org/primeframework/jwt/JWTDecoder.java""","""JWTDecoder::base64Decode( byte [ ] bytes)""",145,151,145,151
+"""src/main/java/org/primeframework/jwt/JWTDecoder.java""","""JWTDecoder::decode( String encodedJWT , Header header , String [ ] parts , Verifier verifier)""",153,193,153,187
+"""src/main/java/org/primeframework/jwt/JWTDecoder.java""","""JWTDecoder::getParts( String encodedJWT)""",195,203,189,197
+"""src/test/java/org/primeframework/jwt/VulnerabilityTest.java""","""VulnerabilityTest::test_SignedWithoutSignature()""",41,54,41,54
+"""src/test/java/org/primeframework/jwt/VulnerabilityTest.java""","""VulnerabilityTest::test_encodedJwtWithSignatureRemoved()""",57,65,57,66
+"""src/test/java/org/primeframework/jwt/VulnerabilityTest.java""","""VulnerabilityTest::test_noVerification()""",68,74,69,76
+"""src/test/java/org/primeframework/jwt/VulnerabilityTest.java""","""VulnerabilityTest::test_unsecuredJWT_validation()""",77,97,-1,-1
+"""src/test/java/org/primeframework/jwt/VulnerabilityTest.java""","""VulnerabilityTest::test_vulnerability_HMAC_forgery()""",100,138,79,117

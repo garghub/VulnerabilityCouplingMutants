@@ -1,0 +1,43 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::DiskFileItem( String fieldName , String contentType , boolean isFormField , String fileName , int sizeThreshold , File repository)""",189,198,189,198
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::getInputStream()""",211,221,211,221
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::getContentType()""",230,232,230,232
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::getCharSet()""",241,247,241,247
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::getName()""",258,260,258,260
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::isInMemory()""",271,276,271,276
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::getSize()""",283,293,283,293
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::get()""",302,329,302,329
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::getString( final String charset)""",343,346,343,346
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::getString()""",357,368,357,368
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::write( File file)""",390,446,390,446
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::delete()""",455,461,455,461
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::getFieldName()""",472,474,472,474
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::setFieldName( String fieldName)""",484,486,484,486
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::isFormField()""",498,500,498,500
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::setFormField( boolean state)""",512,514,512,514
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::getOutputStream()""",525,532,525,532
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::getStoreLocation()""",549,554,549,554
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::finalize()""",562,568,562,568
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::getTempFile()""",578,590,578,590
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::getUniqueId()""",600,611,600,611
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::toString()""",619,622,619,622
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::writeObject( ObjectOutputStream out)""",633,644,633,644
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::readObject( ObjectInputStream in)""",654,691,654,671
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::getHeaders()""",697,699,677,679
+"""src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java""","""DiskFileItem::setHeaders( FileItemHeaders pHeaders)""",705,707,685,687
+"""src/test/java/org/apache/commons/fileupload/DiskFileItemSerializeTest.java""","""DiskFileItemSerializeTest::testInMemoryObject( byte [ ] testFieldValueBytes , File repository)""",57,74,-1,-1
+"""src/test/java/org/apache/commons/fileupload/DiskFileItemSerializeTest.java""","""DiskFileItemSerializeTest::testInMemoryObject( byte [ ] testFieldValueBytes)""",79,81,-1,-1
+"""src/test/java/org/apache/commons/fileupload/DiskFileItemSerializeTest.java""","""DiskFileItemSerializeTest::testBelowThreshold()""",88,92,58,77
+"""src/test/java/org/apache/commons/fileupload/DiskFileItemSerializeTest.java""","""DiskFileItemSerializeTest::testThreshold()""",99,103,84,104
+"""src/test/java/org/apache/commons/fileupload/DiskFileItemSerializeTest.java""","""DiskFileItemSerializeTest::testAboveThreshold()""",110,129,111,130
+"""src/test/java/org/apache/commons/fileupload/DiskFileItemSerializeTest.java""","""DiskFileItemSerializeTest::testValidRepository()""",135,140,-1,-1
+"""src/test/java/org/apache/commons/fileupload/DiskFileItemSerializeTest.java""","""DiskFileItemSerializeTest::testInvalidRepository()""",146,152,-1,-1
+"""src/test/java/org/apache/commons/fileupload/DiskFileItemSerializeTest.java""","""DiskFileItemSerializeTest::testInvalidRepositoryWithNullChar()""",158,164,-1,-1
+"""src/test/java/org/apache/commons/fileupload/DiskFileItemSerializeTest.java""","""DiskFileItemSerializeTest::compareFileItems( FileItem origItem , FileItem newItem)""",169,175,135,141
+"""src/test/java/org/apache/commons/fileupload/DiskFileItemSerializeTest.java""","""DiskFileItemSerializeTest::compareBytes( String text , byte [ ] origBytes , byte [ ] newBytes)""",180,187,146,153
+"""src/test/java/org/apache/commons/fileupload/DiskFileItemSerializeTest.java""","""DiskFileItemSerializeTest::createContentBytes( int size)""",192,203,158,169
+"""src/test/java/org/apache/commons/fileupload/DiskFileItemSerializeTest.java""","""DiskFileItemSerializeTest::createFileItem( byte [ ] contentBytes , File repository)""",208,228,-1,-1
+"""src/test/java/org/apache/commons/fileupload/DiskFileItemSerializeTest.java""","""DiskFileItemSerializeTest::createFileItem( byte [ ] contentBytes)""",233,235,174,194
+"""src/test/java/org/apache/commons/fileupload/DiskFileItemSerializeTest.java""","""DiskFileItemSerializeTest::serialize( Object target)""",240,247,-1,-1
+"""src/test/java/org/apache/commons/fileupload/DiskFileItemSerializeTest.java""","""DiskFileItemSerializeTest::deserialize( ByteArrayOutputStream baos)""",252,261,-1,-1
+"""src/test/java/org/apache/commons/fileupload/DiskFileItemSerializeTest.java""","""DiskFileItemSerializeTest::serializeDeserialize( Object target)""",266,284,199,223

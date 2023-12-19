@@ -1,0 +1,11 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""javamelody-core/src/main/java/net/bull/javamelody/HtmlSessionInformationsReport.java""","""HtmlSessionInformationsReport::HtmlSessionInformationsReport( List<SessionInformations> sessionsInformations , Writer writer)""",41,44,41,44
+"""javamelody-core/src/main/java/net/bull/javamelody/HtmlSessionInformationsReport.java""","""HtmlSessionInformationsReport::toHtml()""",47,76,47,76
+"""javamelody-core/src/main/java/net/bull/javamelody/HtmlSessionInformationsReport.java""","""HtmlSessionInformationsReport::writeSessions( List<SessionInformations> sessions)""",78,101,78,101
+"""javamelody-core/src/main/java/net/bull/javamelody/HtmlSessionInformationsReport.java""","""HtmlSessionInformationsReport::writeBackAndRefreshLinks()""",103,121,103,121
+"""javamelody-core/src/main/java/net/bull/javamelody/HtmlSessionInformationsReport.java""","""HtmlSessionInformationsReport::writeBackAndRefreshLinksForSession( String sessionId)""",123,129,123,129
+"""javamelody-core/src/main/java/net/bull/javamelody/HtmlSessionInformationsReport.java""","""HtmlSessionInformationsReport::writeSession( SessionInformations session , boolean displayUser)""",131,184,131,184
+"""javamelody-core/src/main/java/net/bull/javamelody/HtmlSessionInformationsReport.java""","""HtmlSessionInformationsReport::writeCountry( SessionInformations session)""",186,204,186,204
+"""javamelody-core/src/main/java/net/bull/javamelody/HtmlSessionInformationsReport.java""","""HtmlSessionInformationsReport::writeSessionDetails( String sessionId , SessionInformations sessionInformations)""",206,221,206,221
+"""javamelody-core/src/main/java/net/bull/javamelody/HtmlSessionInformationsReport.java""","""HtmlSessionInformationsReport::writeSessionAttributes( SessionInformations sessionInformations)""",223,232,223,232
+"""javamelody-core/src/main/java/net/bull/javamelody/HtmlSessionInformationsReport.java""","""HtmlSessionInformationsReport::writeAttribute( SessionAttribute sessionAttribute)""",234,250,234,250

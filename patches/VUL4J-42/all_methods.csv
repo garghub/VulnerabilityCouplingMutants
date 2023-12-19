@@ -1,0 +1,131 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::Commandline( String toProcess , Shell shell)""",146,167,144,165
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::Commandline( Shell shell)""",175,178,171,174
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::Commandline( String toProcess)""",185,205,182,202
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::Commandline()""",210,213,208,211
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::getPid()""",215,223,213,221
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::setPid( long pid)""",225,228,223,226
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::Marker::Marker( int position)""",243,246,241,244
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::Marker::getPosition()""",254,266,252,264
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::setDefaultShell()""",273,291,271,289
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::createArgument()""",304,307,302,305
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::createArgument( boolean insertAtStart)""",319,331,317,329
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::createArg()""",343,346,341,344
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::createArg( boolean insertAtStart)""",357,369,355,367
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::addArg( Arg argument)""",377,380,375,378
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::addArg( Arg argument , boolean insertAtStart)""",388,398,386,396
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::setExecutable( String executable)""",403,407,401,405
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::getLiteralExecutable()""",412,415,-1,-1
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::getExecutable()""",424,434,407,417
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::addArguments( String [ ] line)""",436,442,419,425
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::addEnvironment( String name , String value)""",447,451,430,434
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::addSystemEnvironment()""",456,469,439,452
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::getEnvironmentVariables()""",474,495,457,478
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::getCommandline()""",500,513,483,496
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::getShellCommandline()""",520,526,501,507
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::getArguments()""",532,551,513,532
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::toString()""",553,556,534,537
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::size()""",558,561,539,542
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::clone()""",563,570,544,551
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::clear()""",575,582,556,563
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::clearArgs()""",587,590,568,571
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::createMarker()""",599,602,580,583
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::setWorkingDirectory( String path)""",607,611,588,592
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::setWorkingDirectory( File workingDirectory)""",616,620,597,601
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::getWorkingDirectory()""",622,632,603,613
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::execute()""",637,679,618,660
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::verifyShellState()""",684,695,665,676
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::getSystemEnvVars()""",697,701,678,682
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::setShell( Shell shell)""",711,714,690,693
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::getShell()""",722,725,700,703
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::translateCommandline( String toProcess)""",730,734,708,712
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::quoteArgument( String argument)""",739,743,717,721
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::toString( String [ ] line)""",748,751,726,729
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::Argument::setValue( String value)""",761,767,739,745
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::Argument::setLine( String line)""",772,786,750,764
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::Argument::setFile( File value)""",791,794,769,772
+"""src/main/java/org/codehaus/plexus/util/cli/Commandline.java""","""Commandline::Argument::getParts()""",799,802,777,780
+"""src/main/java/org/codehaus/plexus/util/cli/shell/BourneShell.java""","""BourneShell::BourneShell()""",32,35,50,53
+"""src/main/java/org/codehaus/plexus/util/cli/shell/BourneShell.java""","""BourneShell::BourneShell( boolean isLoginShell)""",37,52,55,69
+"""src/main/java/org/codehaus/plexus/util/cli/shell/BourneShell.java""","""BourneShell::getExecutable()""",55,63,72,80
+"""src/main/java/org/codehaus/plexus/util/cli/shell/BourneShell.java""","""BourneShell::getShellArgsList()""",65,78,82,95
+"""src/main/java/org/codehaus/plexus/util/cli/shell/BourneShell.java""","""BourneShell::getShellArgs()""",80,99,97,116
+"""src/main/java/org/codehaus/plexus/util/cli/shell/BourneShell.java""","""BourneShell::getExecutionPreamble()""",101,116,118,133
+"""src/main/java/org/codehaus/plexus/util/cli/shell/BourneShell.java""","""BourneShell::quoteOneItem( String path , boolean isExecutable)""",135,148,-1,-1
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::setUnconditionalQuoting( boolean unconditionallyQuote)""",78,81,-1,-1
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::setShellCommand( String shellCommand)""",88,91,76,79
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::getShellCommand()""",98,101,86,89
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::setShellArgs( String [ ] shellArgs)""",109,113,97,101
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::getShellArgs()""",120,130,108,118
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::getCommandLine( String executable , String [ ] arguments)""",139,142,127,130
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::quoteOneItem( String inputString , boolean isExecutable)""",144,155,-1,-1
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::getRawCommandLine( String executable , String [ ] arguments)""",157,199,132,178
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::getQuotingTriggerChars()""",201,204,180,183
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::getExecutionPreamble()""",206,209,185,188
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::getEscapeChars( boolean includeSingleQuote , boolean includeDoubleQuote)""",211,228,190,207
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::isDoubleQuotedArgumentEscaped()""",230,233,209,212
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::isSingleQuotedArgumentEscaped()""",235,238,214,217
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::isDoubleQuotedExecutableEscaped()""",240,243,219,222
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::isSingleQuotedExecutableEscaped()""",245,248,224,227
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::setArgumentQuoteDelimiter( char argQuoteDelimiter)""",250,253,229,232
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::getArgumentQuoteDelimiter()""",255,258,234,237
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::setExecutableQuoteDelimiter( char exeQuoteDelimiter)""",260,263,239,242
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::getExecutableQuoteDelimiter()""",265,268,244,247
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::setArgumentEscapePattern( String argumentEscapePattern)""",270,273,249,252
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::getArgumentEscapePattern()""",275,277,254,256
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::getShellCommandLine( String [ ] arguments)""",287,306,266,285
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::getShellArgsList()""",308,311,287,290
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::addShellArg( String arg)""",313,316,292,295
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::setQuotedArgumentsEnabled( boolean quotedArgumentsEnabled)""",318,321,297,300
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::isQuotedArgumentsEnabled()""",323,326,302,305
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::setQuotedExecutableEnabled( boolean quotedExecutableEnabled)""",328,331,307,310
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::isQuotedExecutableEnabled()""",333,336,312,315
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::setExecutable( String executable)""",341,348,320,327
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::getExecutable()""",350,353,329,332
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::setWorkingDirectory( String path)""",358,364,337,343
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::setWorkingDirectory( File workingDir)""",369,375,348,354
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::getWorkingDirectory()""",377,380,356,359
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::getWorkingDirectoryAsString()""",382,385,361,364
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::clearArguments()""",387,390,366,369
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::clone()""",392,399,371,378
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::getOriginalExecutable()""",401,404,380,383
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::getOriginalCommandLine( String executable , String [ ] arguments)""",406,409,385,388
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::setDoubleQuotedArgumentEscaped( boolean doubleQuotedArgumentEscaped)""",411,414,390,393
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::setDoubleQuotedExecutableEscaped( boolean doubleQuotedExecutableEscaped)""",416,419,395,398
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::setSingleQuotedArgumentEscaped( boolean singleQuotedArgumentEscaped)""",421,424,400,403
+"""src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java""","""Shell::setSingleQuotedExecutableEscaped( boolean singleQuotedExecutableEscaped)""",426,429,405,408
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::CommandlineTest( final String testName)""",37,40,44,47
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::setUp()""",45,55,52,62
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::testCommandlineWithoutCommandInConstructor()""",57,73,64,80
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::testCommandlineWithCommandInConstructor()""",75,89,82,96
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::testExecute()""",91,122,98,129
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::testSetLine()""",124,141,131,148
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::testCreateCommandInReverseOrder()""",143,159,150,166
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::testSetFile()""",161,183,168,190
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::testGetShellCommandLineWindows()""",185,205,192,212
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::testGetShellCommandLineWindowsWithSeveralQuotes()""",207,227,214,234
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::testGetShellCommandLineBash()""",233,254,240,261
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::testGetShellCommandLineBash_WithWorkingDirectory()""",260,286,267,293
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::testGetShellCommandLineBash_WithSingleQuotedArg()""",292,313,299,320
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::testGetShellCommandLineNonWindows()""",315,339,322,346
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::testEnvironment()""",341,347,348,354
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::testEnvironmentWitOverrideSystemEnvironment()""",349,366,356,373
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::testQuotedPathWithSingleApostrophe()""",373,381,380,388
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::testPathWithShellExpansionStrings()""",388,393,-1,-1
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::testQuotedPathWithQuotationMark()""",400,414,395,409
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::testQuotedPathWithQuotationMarkAndApostrophe()""",422,436,417,431
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::testOnlyQuotedPath()""",443,465,438,460
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::testDollarSignInArgumentPath()""",467,499,462,494
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::testTimeOutException()""",501,533,496,528
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::makeExecutable( File path)""",541,570,536,565
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::createAndCallScript( File dir , String content)""",580,618,575,613
+"""src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java""","""CommandlineTest::executeCommandLine( Commandline cmd)""",626,647,621,642
+"""src/test/java/org/codehaus/plexus/util/cli/shell/BourneShellTest.java""","""BourneShellTest::newShell()""",30,33,31,34
+"""src/test/java/org/codehaus/plexus/util/cli/shell/BourneShellTest.java""","""BourneShellTest::testQuoteWorkingDirectoryAndExecutable()""",35,45,36,46
+"""src/test/java/org/codehaus/plexus/util/cli/shell/BourneShellTest.java""","""BourneShellTest::testQuoteWorkingDirectoryAndExecutable_WDPathWithSingleQuotes()""",47,57,48,58
+"""src/test/java/org/codehaus/plexus/util/cli/shell/BourneShellTest.java""","""BourneShellTest::testQuoteWorkingDirectoryAndExecutable_WDPathWithSingleQuotes_BackslashFileSep()""",59,69,60,70
+"""src/test/java/org/codehaus/plexus/util/cli/shell/BourneShellTest.java""","""BourneShellTest::testPreserveSingleQuotesOnArgument()""",71,85,72,86
+"""src/test/java/org/codehaus/plexus/util/cli/shell/BourneShellTest.java""","""BourneShellTest::testAddSingleQuotesOnArgumentWithSpaces()""",87,101,88,102
+"""src/test/java/org/codehaus/plexus/util/cli/shell/BourneShellTest.java""","""BourneShellTest::testEscapeSingleQuotesOnArgument()""",103,117,104,118
+"""src/test/java/org/codehaus/plexus/util/cli/shell/BourneShellTest.java""","""BourneShellTest::testArgumentsWithsemicolon()""",119,173,120,174
+"""src/test/java/org/codehaus/plexus/util/cli/shell/BourneShellTest.java""","""BourneShellTest::testBourneShellQuotingCharacters()""",175,211,176,212

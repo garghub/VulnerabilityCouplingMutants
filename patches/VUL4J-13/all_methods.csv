@@ -1,0 +1,12 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""src/main/java/org/apache/commons/imaging/formats/rgbe/RgbeInfo.java""","""RgbeInfo::RgbeInfo( final ByteSource byteSource)""",46,48,46,48
+"""src/main/java/org/apache/commons/imaging/formats/rgbe/RgbeInfo.java""","""RgbeInfo::getMetadata()""",50,56,50,56
+"""src/main/java/org/apache/commons/imaging/formats/rgbe/RgbeInfo.java""","""RgbeInfo::getWidth()""",58,64,58,64
+"""src/main/java/org/apache/commons/imaging/formats/rgbe/RgbeInfo.java""","""RgbeInfo::getHeight()""",66,72,66,72
+"""src/main/java/org/apache/commons/imaging/formats/rgbe/RgbeInfo.java""","""RgbeInfo::close()""",75,77,75,77
+"""src/main/java/org/apache/commons/imaging/formats/rgbe/RgbeInfo.java""","""RgbeInfo::readDimensions()""",79,94,79,94
+"""src/main/java/org/apache/commons/imaging/formats/rgbe/RgbeInfo.java""","""RgbeInfo::readMetadata()""",96,127,96,127
+"""src/main/java/org/apache/commons/imaging/formats/rgbe/RgbeInfo.java""","""RgbeInfo::getPixelData()""",129,169,129,169
+"""src/main/java/org/apache/commons/imaging/formats/rgbe/RgbeInfo.java""","""RgbeInfo::decompress( final InputStream in , final byte [ ] out)""",171,195,171,191
+"""src/test/java/org/apache/commons/imaging/formats/rgbe/RgbeReadTest.java""","""RgbeReadTest::test()""",39,57,36,54
+"""src/test/java/org/apache/commons/imaging/formats/rgbe/RgbeReadTest.java""","""RgbeReadTest::testErrorDecompressingInvalidFile()""",66,74,-1,-1

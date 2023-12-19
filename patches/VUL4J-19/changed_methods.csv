@@ -1,0 +1,2 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old,line_num,mod_type,mod
+"""pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/StandardSecurityHandler.java""","""StandardSecurityHandler::prepareForDecryption( PDEncryption encryption , COSArray documentIDArray , DecryptionMaterial decryptionMaterial)""",167,277,167,276,240,"""added""","""            currentAccessPermission.setReadOnly();"""

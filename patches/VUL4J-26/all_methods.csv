@@ -1,0 +1,21 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.java""","""URLValidator::validate( Object object)""",48,61,48,61
+"""core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.java""","""URLValidator::getUrlRegex()""",69,90,69,90
+"""core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.java""","""URLValidator::setUrlRegex( String urlRegex)""",92,94,92,94
+"""core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.java""","""URLValidator::setUrlRegexExpression( String urlRegexExpression)""",96,98,96,98
+"""core/src/test/java/com/opensymphony/xwork2/validator/URLValidatorTest.java""","""URLValidatorTest::testAcceptNullValueForMutualExclusionOfValidators()""",37,49,37,49
+"""core/src/test/java/com/opensymphony/xwork2/validator/URLValidatorTest.java""","""URLValidatorTest::testInvalidEmptyValue()""",51,63,51,63
+"""core/src/test/java/com/opensymphony/xwork2/validator/URLValidatorTest.java""","""URLValidatorTest::testInvalidValue()""",65,77,65,77
+"""core/src/test/java/com/opensymphony/xwork2/validator/URLValidatorTest.java""","""URLValidatorTest::testValidUrl1()""",80,92,80,92
+"""core/src/test/java/com/opensymphony/xwork2/validator/URLValidatorTest.java""","""URLValidatorTest::testValidUrl2()""",94,106,94,106
+"""core/src/test/java/com/opensymphony/xwork2/validator/URLValidatorTest.java""","""URLValidatorTest::testValidUrlWithRegex()""",108,117,108,117
+"""core/src/test/java/com/opensymphony/xwork2/validator/URLValidatorTest.java""","""URLValidatorTest::testValidUrlWithRegexExpression()""",119,129,119,129
+"""core/src/test/java/com/opensymphony/xwork2/validator/URLValidatorTest.java""","""URLValidatorTest::testValidUrlWithDefaultRegex()""",131,147,131,146
+"""core/src/test/java/com/opensymphony/xwork2/validator/URLValidatorTest.java""","""URLValidatorTest::setUp()""",150,154,149,153
+"""core/src/test/java/com/opensymphony/xwork2/validator/URLValidatorTest.java""","""URLValidatorTest::tearDown()""",157,161,156,160
+"""core/src/test/java/com/opensymphony/xwork2/validator/URLValidatorTest.java""","""URLValidatorTest::MyObject::getTestingUrl1()""",165,167,164,166
+"""core/src/test/java/com/opensymphony/xwork2/validator/URLValidatorTest.java""","""URLValidatorTest::MyObject::getTestingUrl2()""",169,171,168,170
+"""core/src/test/java/com/opensymphony/xwork2/validator/URLValidatorTest.java""","""URLValidatorTest::MyObject::getTestingUrl3()""",173,175,172,174
+"""core/src/test/java/com/opensymphony/xwork2/validator/URLValidatorTest.java""","""URLValidatorTest::MyObject::getTestingUrl4()""",177,180,176,179
+"""core/src/test/java/com/opensymphony/xwork2/validator/URLValidatorTest.java""","""URLValidatorTest::MyObject::getTestingUrl5()""",182,184,181,183
+"""core/src/test/java/com/opensymphony/xwork2/validator/URLValidatorTest.java""","""URLValidatorTest::MyAction::getUrlRegex()""",189,191,188,190

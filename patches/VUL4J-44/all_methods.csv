@@ -1,0 +1,5 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""src/main/java/org/owasp/esapi/codecs/PercentCodec.java""","""PercentCodec::toUtf8Bytes( String str)""",59,69,59,69
+"""src/main/java/org/owasp/esapi/codecs/PercentCodec.java""","""PercentCodec::appendTwoUpperHex( StringBuilder sb , int b)""",80,88,80,88
+"""src/main/java/org/owasp/esapi/codecs/PercentCodec.java""","""PercentCodec::encodeCharacter( char [ ] immune , Character c)""",101,120,96,110
+"""src/main/java/org/owasp/esapi/codecs/PercentCodec.java""","""PercentCodec::decodeCharacter( PushbackString input)""",131,162,121,152

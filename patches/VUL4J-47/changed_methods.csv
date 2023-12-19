@@ -1,0 +1,4 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old,line_num,mod_type,mod
+"""release-notes/VERSION""","""""",-1,-1,-1,-1,15,"""added""","""#211: Disable `SUPPORT_DTD` for `XMLInputFactory` unless explicitly overridden"""
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::XmlFactory( ObjectCodec oc , int xpFeatures , int xgFeatures , XMLInputFactory xmlIn , XMLOutputFactory xmlOut , String nameForTextElem)""",104,125,104,123,116,"""added""","""            // and ditto wrt [dataformat-xml#211], SUPPORT_DTD"""
+"""src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java""","""XmlFactory::XmlFactory( ObjectCodec oc , int xpFeatures , int xgFeatures , XMLInputFactory xmlIn , XMLOutputFactory xmlOut , String nameForTextElem)""",104,125,104,123,117,"""added""","""            xmlIn.setProperty(XMLInputFactory.SUPPORT_DTD, Boolean.FALSE);"""

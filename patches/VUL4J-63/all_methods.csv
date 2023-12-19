@@ -1,0 +1,4 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""protocols/ovsdb/rfc/src/main/java/org/onosproject/ovsdb/rfc/utils/VersionUtil.java""","""VersionUtil::VersionUtil()""",28,29,28,29
+"""protocols/ovsdb/rfc/src/main/java/org/onosproject/ovsdb/rfc/utils/VersionUtil.java""","""VersionUtil::versionMatch( String version)""",39,44,39,44
+"""protocols/ovsdb/rfc/src/main/java/org/onosproject/ovsdb/rfc/utils/VersionUtil.java""","""VersionUtil::versionCompare( String fromVersion , String toVersion)""",52,78,52,68

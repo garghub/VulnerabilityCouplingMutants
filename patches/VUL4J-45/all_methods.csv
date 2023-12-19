@@ -1,0 +1,5 @@
+file_path,long_name,start_line_new,end_line_new,start_line_old,end_line_old
+"""esigate-core/src/main/java/org/esigate/xml/XsltRenderer.java""","""XsltRenderer::XsltRenderer( String template , Driver driver , DriverRequest originalRequest)""",72,78,70,76
+"""esigate-core/src/main/java/org/esigate/xml/XsltRenderer.java""","""XsltRenderer::XsltRenderer( String xsl)""",86,89,84,87
+"""esigate-core/src/main/java/org/esigate/xml/XsltRenderer.java""","""XsltRenderer::createTransformer( InputStream templateStream)""",91,101,89,97
+"""esigate-core/src/main/java/org/esigate/xml/XsltRenderer.java""","""XsltRenderer::render( DriverRequest httpRequest , String src , Writer out)""",105,121,101,117
